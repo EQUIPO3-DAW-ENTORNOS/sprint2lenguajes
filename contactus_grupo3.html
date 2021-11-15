@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="grupo-3">
+    <title>Contáctanos</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20191010/ourlarge/pngtree-rose-logo-vector-png-image_1811819.jpg">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+
+</head>
+<body>
+    <!-- Título y logo de la página-->
+
+    <nav class="nav">
+        <div class="logo">
+            <img class="img" src="https://png.pngtree.com/png-vector/20191010/ourlarge/pngtree-rose-logo-vector-png-image_1811819.jpg" alt="">
+            <h1 class="titulo" id="titulo-main">Rosa<span id="color-logo" >'</span>s <span id="color-logo">Burger</span></h1>
+            
+        </div>
+        <div class="enlaces">
+            <ul>
+                <li><a href="paginainicio_grupo3.html">Página Principal</a></li>
+                <li><a href="paginalibre_grupo3.html">Reserva</a></li>
+                <li><a href="servicios_grupo3.html">Servicios</a></li>
+                <li><a href="aboutus_grupo3.html">About Us</a></li>
+                <li><a href="contactus_grupo3.html">Contáctanos</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <!-- Introducción al formulario -->
+
+    <div class="form">
+        <div class="intro-form">
+            <h2><u><b>Contáctanos</b></u></h2>
+            <p>Si tiene alguna duda o problema que crea que le podamos solucionar, no dude en contactar con nosotros mediante el formulario a continuación, estaremos encantados de ayudarle.</p>
+        </div>
+        <!-- Añadir el formulario -->
+
+
+        <form action="" class="form-body">
+
+            <!-- Añadir campos de texto -->
+
+            <div class="form-inputs">
+                <div class="form-up">
+                    <div class="inputs">
+                        <label for=""><i class="far fa-user"></i></label>
+                        <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez...">
+                    </div>
+                    <div class="inputs">
+                        <label for=""><i class="fas fa-phone"></i></label>
+                        <input type="tel" required placeholder="123456789...">
+                    </div>
+                </div>
+
+                <div class="form-down">
+                    <div class="inputs">
+                        <label for=""><i class="far fa-envelope"></i></label>
+                        <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" >
+                    </div>
+
+
+                    <!-- Añadir selector -->
+
+                    <div class="select-body">
+                        <select name="producto" id="select">
+                            <option value="0" selected hidden></option>
+                            <option value="1">Soporte técnico</option>
+                            <option value="2">Alérgenos</option>
+                            <option value="3">Problemas a domicilio</option>
+                            <option value="4">Sugerencias</option>
+                        </select>
+                        <i id="flecha" class="fas fa-angle-down"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            <!-- Añadir diferentes estilos de botones-->
+
+            <div class="radio">
+                <div class="radio1">
+                    <label for="">Hombre</label>
+                    <input type="radio" name="genero" required>
+                </div>
+                   
+                <div class="radio2">
+                    <label for="">Mujer</label>
+                    <input type="radio" name="genero" required>
+                </div>
+
+                <div class="radio2">
+                    <label for="">Otro</label>
+                    <input type="radio" name="genero" required>
+                </div>
+                
+                    
+            </div>
+
+            
+
+            
+            <div class="form-footer">
+                <div class="textarea">
+                    <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                </div>
+                
+
+                <div class="botones">
+                    <div class="check">
+                        <input type="checkbox" checked required>
+                        <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                    </div>
+                    
+    
+                    <div class="btn">
+                        <input id="enviar" type="submit" value="Enviar">
+                        <input id="limpiar" type="reset" value="Limpiar">
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <!-- Añadir ubicacion de Google Maps -->
+
+
+    <div class="contenedor-maps">
+        <div class="titulo-maps">
+            <h2>Cada día más cerca de ti</h2>
+        </div>
+        <div class="maps">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.5203964896418!2d-4.404172570753936!3d36.720601773724674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7e73bd80d9f%3A0xe932bb5e36e4cee!2sN-340%2C%2019%2C%2029016%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1634203308814!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </div>
+    
+    <!-- Añadir menú y footer -->
+
+
+    <p>TODOS LOS DERECHOS RESERVADOS&REG;</p> 
+</body>
+</html>
