@@ -275,7 +275,7 @@
 .logo{
     cursor: pointer;
     width: 30%;
-    height: 150px;
+    height: 20vh;
     display: flex;
     
 }
@@ -417,8 +417,6 @@
     
     /* PARTE FRAN */
 
-    #aa{
-        color: red;
-    }
+ 
 
 }
