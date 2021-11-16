@@ -1,8 +1,8 @@
 /* PAGINA DE CONTACTO */
 
+/* PARTE JAVI */
 :root{
     background-color: white;
-    font-family: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -92,7 +92,7 @@
     color: white;
     font-size: 17px;
     font-weight: 400;
-    transition: all 0.3s;
+    transition: all 0.4s;
     cursor: pointer;
     position: relative;
     left: 4px;
@@ -101,8 +101,10 @@
     padding: 7px;
     margin-right: 5px;
     font-size: 20px;
+    color: #777777;
   
 }
+
 .select-body{
     border: 2px solid #666666;
     border-radius: 5px;
@@ -110,6 +112,9 @@
 }
 .select-body:hover{
     border: 2px solid white;
+}
+.select-body:hover i{
+    color: white;
 }
 
 .form-footer{
@@ -194,8 +199,17 @@
     border-radius: 5px;
     transition: all 0.4s;
 }
+.inputs i{
+    cursor: pointer;
+    padding: 3px;
+    color: #777777;
+    transition: all 0.4s;
+}
 .inputs:hover{
     border: 2px solid white;
+}
+.inputs:hover i{
+    color: white;
 }
 .input-clock{
     background-color: #444444;
@@ -213,10 +227,8 @@
     font-weight: 600;
 }
 
-i{
-    cursor: pointer;
-    padding: 3px;
-}
+
+
 
 /* CREACION DEL MENÚ DE NAVEGACIÓN */
 .enlaces{
@@ -262,7 +274,7 @@ i{
 .logo{
     cursor: pointer;
     width: 30%;
-    height: 150px;
+    height: 20vh;
     display: flex;
     
 }
@@ -275,6 +287,7 @@ i{
     font-size: 47px;
 }
 .nav{
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     background-color: white;
     width: 100%;
@@ -401,6 +414,7 @@ i{
         flex-direction: column;
         justify-content: center;
     }
+
     
 
 
@@ -442,4 +456,5 @@ i{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+
 }
