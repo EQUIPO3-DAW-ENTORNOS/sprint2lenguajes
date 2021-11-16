@@ -415,10 +415,19 @@
         justify-content: center;
     }
 
-    
+
+
+  /*fran*/
+  .color-prueba{
+      color:rgb(78, 54, 54);
+  }
+  
+
+ 
 
 
 }
+
 
 
 /*story 4 imagenes*/
@@ -458,3 +467,13 @@
     -ms-transform: translate(-50%, -50%);
 
 }
+
+/*Pablo Bravo*/
+.fondounico{
+    background-color: aqua;
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+
