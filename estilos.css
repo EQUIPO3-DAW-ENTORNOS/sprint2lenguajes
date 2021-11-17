@@ -12,7 +12,6 @@
 
 
 .form{
-    background-image: linear-gradient(180deg,white,#f7abdb);
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: white;
@@ -320,14 +319,15 @@
     margin: 50px 100px;
 }
 
-
+.texto-servicios{
+    margin: 5%;
+}
 
 /* MENU DE GOOGLE MAPS */
 
 .contenedor-maps{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(180deg,#f7abdb,white) ;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -344,24 +344,25 @@
 
 
   /*fran*/
-  .color-prueba{
+  .color-prueba1{
     color:rgb(78, 54, 54);
 }
-.fondo{
-    background-image: linear-gradient(180deg,white,#f7adbd) ;
-}
+    .fondo1{
+        background-image: linear-gradient(180deg,white,#f7adbd) ;
+    }
+    .fondo2{
+        background-image: linear-gradient(180deg,#f7adbd,white);
+    }
 
 
 
 
 
-  /*fran*/
-  .color-prueba{
+ 
+  .color-prueba3{
       color:rgb(187, 71, 56);
   }
-  .fondo{
-      background-image: linear-gradient(180deg,white,#f7abdb);
-  }
+
   
 .color-prueba2{
     color:orange
