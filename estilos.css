@@ -555,4 +555,36 @@
         width: 100%;
     }
     
+
+
+
 }
+
+
+/*Pablo Bravo*/
+.fondounico{
+    background-color: aqua;
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    margin: 600px 500px;
+    
+    background-color:#ffffffbe;
+    color:rgb(0, 0, 0)
+}
+
+.imagen-fondo{
+    height:100vh;
+  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
+  background-repeat:no-repeat;
+ 
+  background-size: cover;
+  
+}
+
+.colorsolido{
+    background-color:#e01313;
+}
+
+
