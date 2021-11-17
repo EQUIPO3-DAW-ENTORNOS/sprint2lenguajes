@@ -357,13 +357,19 @@
 
   /*fran*/
   .color-prueba{
-      color:rgb(78, 54, 54);
+      color:rgb(187, 71, 56);
   }
   .fondo{
       background-image: linear-gradient(180deg,white,#f7abdb);
   }
   
+.color-prueba2{
+    color:orange
+}
 
+.color-precios{
+    color:rgb(97, 11, 11)
+}
  
 
 
