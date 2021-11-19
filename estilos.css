@@ -301,7 +301,6 @@
     display: flex;
     width: 100%;
     height: 1200px;
-    background-color: #666666;
     justify-content: center;
     align-items: center;
 }
@@ -315,8 +314,8 @@
 
 }
 .imgs img{
-    height: 350px;
-    margin: 50px 100px;
+    height: 40vh;
+    margin: 2% 4%;
 }
 
 .texto-servicios{
@@ -554,7 +553,10 @@
         
 
     }
-    .enlaces ul{
+    .enlaces ul li{
+        border-radius: none;
+    }
+    .enlaces ul a{
         width: 100%;
     }
     
