@@ -1,8 +1,7 @@
 /* PAGINA DE CONTACTO */
 
+/* PARTE JAVI */
 :root{
-    background-color: white;
-    font-family: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -13,10 +12,10 @@
 
 
 .form{
-    background-color: #cfcdcd;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: white;
-    padding: 40px;
+    padding: 39px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +91,7 @@
     color: white;
     font-size: 17px;
     font-weight: 400;
-    transition: all 0.3s;
+    transition: all 0.4s;
     cursor: pointer;
     position: relative;
     left: 4px;
@@ -101,8 +100,10 @@
     padding: 7px;
     margin-right: 5px;
     font-size: 20px;
+    color: #777777;
   
 }
+
 .select-body{
     border: 2px solid #666666;
     border-radius: 5px;
@@ -110,6 +111,9 @@
 }
 .select-body:hover{
     border: 2px solid white;
+}
+.select-body:hover i{
+    color: white;
 }
 
 .form-footer{
@@ -194,8 +198,17 @@
     border-radius: 5px;
     transition: all 0.4s;
 }
+.inputs i{
+    cursor: pointer;
+    padding: 3px;
+    color: #777777;
+    transition: all 0.4s;
+}
 .inputs:hover{
     border: 2px solid white;
+}
+.inputs:hover i{
+    color: white;
 }
 .input-clock{
     background-color: #444444;
@@ -213,10 +226,8 @@
     font-weight: 600;
 }
 
-i{
-    cursor: pointer;
-    padding: 3px;
-}
+
+
 
 /* CREACION DEL MENÚ DE NAVEGACIÓN */
 .enlaces{
@@ -262,7 +273,7 @@ i{
 .logo{
     cursor: pointer;
     width: 30%;
-    height: 150px;
+    height: 20vh;
     display: flex;
     
 }
@@ -275,6 +286,7 @@ i{
     font-size: 47px;
 }
 .nav{
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     background-color: white;
     width: 100%;
@@ -289,7 +301,6 @@ i{
     display: flex;
     width: 100%;
     height: 1200px;
-    background-color: #666666;
     justify-content: center;
     align-items: center;
 }
@@ -303,11 +314,13 @@ i{
 
 }
 .imgs img{
-    height: 350px;
-    margin: 50px 100px;
+    height: 40vh;
+    margin: 2% 4%;
 }
 
-
+.texto-servicios{
+    margin: 5%;
+}
 
 /* MENU DE GOOGLE MAPS */
 
@@ -317,17 +330,186 @@ i{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 900px;
-    background-color: #666666;
+    height: 100vh;
 }
 .titulo-maps{
-    color: white;
+    color: black;
     font-style: italic;
     text-decoration: underline;
     justify-content: flex-start;
     font-size: 35px;
     font-weight: 600;
 }
+
+
+  /*fran*/
+  .color-prueba1{
+    color:rgb(78, 54, 54);
+}
+    .fondo1{
+        background-image: linear-gradient(180deg,white,#f7adbd) ;
+    }
+    .fondo2{
+        background-image: linear-gradient(180deg,#f7adbd,white);
+    }
+
+
+
+
+
+ 
+  .color-prueba3{
+      color:rgb(187, 71, 56);
+  }
+
+  
+.color-prueba2{
+    color:orange
+}
+
+.color-precios{
+    color:rgb(97, 11, 11)
+}
+ .color-about{
+     color:maroon
+ }
+.margen{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.body{
+    font-family: Garamond, serif;
+}
+
+
+
+
+
+/*story 4 imagenes*/
+.cocina{
+    position: relative;
+    width: 50%;
+}
+.imgcocina{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position:absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+  background-color: #17191a;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .8s ease;
+}
+.cocina:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.textococina{
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+/*Pablo Bravo*/
+.fondounico{
+    background-color: aqua;
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -375,33 +557,47 @@ i{
         width: 100%;
         margin: 0;
         padding: 0;
-        position: relative;
-        right: 50px;
+        height: 30vh;
         
-    }
-    .enlaces li a{
-        border-radius: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
-    .enlaces li:hover{
-        transform: scale(0.8,0.8);
-    }
-    .enlaces ul {
-        width: 100%;
-        flex-direction: column;
-        height: 50vh;
-        
+
     }
     .enlaces ul li{
+        border-radius: none;
+    }
+    .enlaces ul a{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     
 
 
+
 }
+
+
+/*Pablo Bravo*/
+.fondounico{
+    background-color: aqua;
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    margin: 600px 500px;
+    
+    background-color:#ffffffbe;
+    color:rgb(0, 0, 0)
+}
+
+.imagen-fondo{
+    height:100vh;
+  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
+  background-repeat:no-repeat;
+ 
+  background-size: cover;
+  
+}
+
+.colorsolido{
+    background-color:#e01313;
+}
+
+
