@@ -239,13 +239,13 @@
 }
 .enlaces li{
     list-style: none;
-    display: inline-block;
     justify-content: space-around;
     transition: all 0.8s;
   
     
 }
 .enlaces ul{
+    display: inline;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -557,19 +557,32 @@
         padding: 0;
     }
     .enlaces {
+        text-align: center;
+        justify-content: space-between;
         width: 100%;
         margin: 0;
         padding: 0;
-        height: 30vh;
+    }
+    .enlaces li{
+        display: unset;
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .enlaces li a{
+        display: unset;
+        width: 100%;
+
     }
     .enlaces ul{
-        display: inline;
-
+        width: 100%;
+        display: block;
+        flex-direction: column;
     }
     .enlaces ul li{
+        width: 100%;
         border-radius: none;
     }
-
     .form-down{
         flex-direction: column;
     }
@@ -588,12 +601,23 @@
     .btn input{
         margin-bottom: 2vh;
     }
-    
-
-
+    .form-body{
+        width: 60%;
+    }
 
 }
 
+@media screen and (max-width: 1060px){
+    .enlaces li{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .enlaces li{
+        margin-top: 7%;
+    }
+}
 
 /*Pablo Bravo*/
 .fondounico{
@@ -610,10 +634,9 @@
 
 .imagen-fondo{
     height:100vh;
-  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
-  background-repeat:no-repeat;
- 
-  background-size: cover;
+    background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
+    background-repeat:no-repeat; 
+    background-size: cover;
   
 }
 
@@ -623,6 +646,3 @@
 
 
 
-prueba100{
-
-}
