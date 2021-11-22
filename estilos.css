@@ -553,14 +553,32 @@
         margin: 0;
         padding: 0;
         height: 30vh;
-        
+    }
+    .enlaces ul{
+        display: inline;
 
     }
     .enlaces ul li{
         border-radius: none;
     }
-    .enlaces ul a{
-        width: 100%;
+
+    .form-down{
+        flex-direction: column;
+    }
+    .form-up{
+        flex-direction: column;
+    }
+    #flecha{
+        display: none;
+    }
+    .inputs{
+        margin-bottom: 2vh;
+    }
+    .btn{
+        flex-direction: column;
+    }
+    .btn input{
+        margin-bottom: 2vh;
     }
     
 
@@ -596,3 +614,7 @@
 }
 
 
+
+prueba100{
+
+}
