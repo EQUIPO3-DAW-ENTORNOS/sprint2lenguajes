@@ -1,6 +1,7 @@
-/* PAGINA DE CONTACTO */
 
-/* PARTE JAVI */
+
+/* FORMULARIO  */
+
 :root{
     padding: 0;
     margin: 0;
@@ -232,6 +233,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* CREACION DEL MENÚ DE NAVEGACIÓN */
 .enlaces{
     width: 70%;
@@ -298,6 +310,18 @@
     color: rgb(189, 29, 29);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* MENU DE IMAGENES */
 
 .contenedor-imgs{
@@ -325,6 +349,21 @@
     margin: 5%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MENU DE GOOGLE MAPS */
 
 .contenedor-maps{
@@ -346,7 +385,21 @@
 }
 
 
-  /*fran*/
+
+
+
+
+
+
+
+
+
+
+
+
+  /* COLORES */
+
+
   .color-prueba1{
     color:rgb(78, 54, 54);
 }
@@ -356,11 +409,6 @@
     .fondo2{
         background-image: linear-gradient(180deg,#f7adbd,white);
     }
-
-
-
-
-
  
   .color-prueba3{
       color:rgb(187, 71, 56);
@@ -396,46 +444,6 @@
 
 
 
-
-/*story 4 imagenes*/
-.cocina{
-    position: relative;
-    width: 50%;
-}
-.imgcocina{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.overlay{
-    position:absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-  background-color: #17191a;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .8s ease;
-}
-.cocina:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-.textococina{
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-
-}
-
-/*Pablo Bravo*/
 .fondounico{
     background-color: aqua;
 }
@@ -460,6 +468,84 @@
 
 
 
+/* IMÁGENES */
+
+.cocina{
+    position: relative;
+    width: 30%;
+    object-fit: cover;
+    object-position: center center;
+}
+.flex-imgcocina{
+    width: 100%;
+}
+.horizontal {
+    display: flex ;
+    justify-content: space-around;
+}
+.overlay{
+    position:absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #17191a;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .8s ease;
+}
+.cocina:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.textococina{
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+} 
+.responsive{
+    width: 96%;
+    max-width: 960px;
+    margin:  0 auto;
+}
+.imgsalonlibre{
+    width: 50%;
+    -webkit-box-reflect:right 0px;
+}
+
+.imgservicios {
+    width: 100%;
+    padding-top: 5%;
+    
+}
+.opacity{
+    transition: all 0.3s;
+}
+.opacity:hover  {
+    opacity: 0.6;
+    
+}
+.maps{
+}
+.border{
+border:gray 5px solid;
+outline:black 4px solid;
+width: 100%;
+height: 50vh;
+
+}
+.columnas{
+column-count: 6;
+column-gap: 2%;
+column-rule:black 2px solid;
+column-width: 240px;
+}
 
 
 
@@ -480,6 +566,65 @@
 
 
 
+
+/* FONDOS Y MARGENES */
+.fondounico{
+    background-color: aqua;
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(155, 151, 151);
+    
+    
+   
+    color:rgb(255, 255, 255)
+}
+
+.imagen-fondo{
+    width: 100%;
+  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
+  background-repeat:repeat;
+ 
+  background-size: cover;
+  
+}
+
+.colorsolido{
+    background-color:#000000;
+}
+
+
+.segundo-parrafo{
+    margin-top: 35%;
+    
+
+}
+
+.color-parrafo{
+    
+    
+    background-color: white;
+}
+
+.color-parrafo2{
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.2%;
+    text-align: center;
+
+}
+
+.color-parrafo3{
+    text-align: center;
+   margin-top: 0.25%;
+    color:rgb(255, 255, 255);
+   
+}
+.fondo{
+    background-color: rgb(155, 151, 151);
+}
 
 
 
