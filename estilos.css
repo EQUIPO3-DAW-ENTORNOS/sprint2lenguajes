@@ -585,12 +585,13 @@ column-width: 240px;
 
 .imagen-fondo{
     width: 100%;
-  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
+  background-image: url("https://smoda.elpais.com/wp-content/uploads/2018/06/Goiko-591x447.jpg");
   background-repeat:repeat;
  
   background-size: cover;
   
 }
+
 
 .colorsolido{
     background-color:#000000;
