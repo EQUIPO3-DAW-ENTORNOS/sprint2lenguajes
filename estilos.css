@@ -531,8 +531,7 @@
     opacity: 0.6;
     
 }
-.maps{
-}
+
 .border{
 border:gray 5px solid;
 outline:black 4px solid;
@@ -797,9 +796,7 @@ column-width: 240px;
   
 
  
-  background-size: cover;
-  
-}
+
 
 .colorsolido{
     background-color:#000000;
