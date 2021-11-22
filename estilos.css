@@ -239,13 +239,13 @@
 }
 .enlaces li{
     list-style: none;
-    display: inline-block;
     justify-content: space-around;
     transition: all 0.8s;
   
     
 }
 .enlaces ul{
+    display: inline;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -386,7 +386,12 @@
 .body{
     font-family: Garamond, serif;
 }
-
+.margin30{
+    margin:1%;
+}
+.margin50{
+    margin:4%;
+}
 
 
 
@@ -632,19 +637,32 @@ column-width: 240px;
         padding: 0;
     }
     .enlaces {
+        text-align: center;
+        justify-content: space-between;
         width: 100%;
         margin: 0;
         padding: 0;
-        height: 30vh;
+    }
+    .enlaces li{
+        display: unset;
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .enlaces li a{
+        display: unset;
+        width: 100%;
+
     }
     .enlaces ul{
-        display: inline;
-
+        width: 100%;
+        display: block;
+        flex-direction: column;
     }
     .enlaces ul li{
+        width: 100%;
         border-radius: none;
     }
-
     .form-down{
         flex-direction: column;
     }
@@ -663,12 +681,23 @@ column-width: 240px;
     .btn input{
         margin-bottom: 2vh;
     }
-    
-
-
+    .form-body{
+        width: 60%;
+    }
 
 }
 
+@media screen and (max-width: 1060px){
+    .enlaces li{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .enlaces li{
+        margin-top: 7%;
+    }
+}
 
 /*Pablo Bravo*/
 .fondounico{
@@ -676,23 +705,55 @@ column-width: 240px;
 }
 .titulo-portada{
     font-family: 'PT Serif', serif;
-    font-weight: 600;
-    margin: 600px 500px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(155, 151, 151);
     
-    background-color:#ffffffbe;
-    color:rgb(0, 0, 0)
+    
+   
+    color:rgb(255, 255, 255)
 }
 
 .imagen-fondo{
-    height:100vh;
+    width: 100%;
   background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
-  background-repeat:no-repeat;
+  background-repeat:repeat;
  
   background-size: cover;
   
 }
 
 .colorsolido{
-    background-color:#e01313;
+    background-color:#000000;
 }
 
+
+.segundo-parrafo{
+    margin-top: 35%;
+    
+
+}
+
+.color-parrafo{
+    
+    
+    background-color: white;
+}
+
+.color-parrafo2{
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.2%;
+    text-align: center;
+
+}
+
+.color-parrafo3{
+    text-align: center;
+   margin-top: 0.25%;
+    color:rgb(255, 255, 255);
+   
+}
+.fondo{
+    background-color: rgb(155, 151, 151);
+}
