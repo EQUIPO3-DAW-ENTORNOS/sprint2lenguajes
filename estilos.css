@@ -340,6 +340,7 @@
     font-style: italic;
     text-decoration: underline;
     justify-content: flex-start;
+    text-shadow: 2px 2px red;
     font-size: 35px;
     font-weight: 600;
 }
@@ -634,7 +635,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: rgb(155, 151, 151);
-    
+   
     
    
     color:rgb(255, 255, 255)
@@ -642,8 +643,8 @@
 
 .imagen-fondo{
     width: 100%;
-  background-image: url("https://www.busquetsgalvez.com/web/wp-content/uploads/2016/06/Bacoa-Barcelona-Madrid.jpg");
-  background-repeat:repeat;
+  background-image: url("https://smoda.elpais.com/wp-content/uploads/2018/06/Goiko-591x447.jpg");
+  background-repeat:no-repeat;
  
   background-size: cover;
   
@@ -655,7 +656,7 @@
 
 
 .segundo-parrafo{
-    margin-top: 35%;
+    margin-top: 75%;
     
 
 }
@@ -682,3 +683,4 @@
 .fondo{
     background-color: rgb(155, 151, 151);
 }
+
