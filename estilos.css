@@ -386,7 +386,12 @@
 .body{
     font-family: Garamond, serif;
 }
-
+.margin30{
+    margin:1%;
+}
+.margin50{
+    margin:4%;
+}
 
 
 
