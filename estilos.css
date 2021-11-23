@@ -557,7 +557,10 @@ column-gap: 2%;
 column-rule:black 2px solid;
 column-width: 240px;
 }
+.reflection{
+-webkit-box-reflect: right;
 
+}
 
 
 
