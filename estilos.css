@@ -489,6 +489,7 @@
     display: flex ;
     justify-content: space-around;
 }
+/*animación de las imagenes*/
 .overlay{
     position:absolute;
     bottom: 100%;
@@ -504,6 +505,7 @@
     bottom: 0;
     height: 100%;
 }
+/*texto del hover*/
 .textococina{
     white-space: nowrap; 
     color: white;
@@ -530,6 +532,7 @@
     padding-top: 5%;
     
 }
+/*Difuminado(opacity)*/
 .opacity{
     transition: all 0.3s;
 }
@@ -537,7 +540,7 @@
     opacity: 0.6;
     
 }
-
+/*bordes maps*/
 .border{
 border:gray 5px solid;
 outline:black 4px solid;
@@ -545,6 +548,7 @@ width: 100%;
 height: 50vh;
 
 }
+/*columnas*/
 .columnas{
 column-count: 6;
 column-gap: 2%;
