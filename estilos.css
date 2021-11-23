@@ -643,6 +643,17 @@ column-width: 240px;
     color:rgb(255, 255, 255);
    
 }
+.tachado{
+    text-align: center;
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+   margin-top: 0.25%;
+   text-decoration:line-through;
+    color: red;
+    color:rgb(255, 255, 255);
+   
+}
 .fondo{
     background-color: rgb(155, 151, 151);
 }
@@ -894,5 +905,7 @@ table {
 .AlineacionDerechos{
     text-align: right;
     text-transform:uppercase;
+    font-style: italic;
+    text-decoration: overline;
 }
 
