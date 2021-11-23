@@ -381,6 +381,7 @@
 .titulo-maps{
     color: black;
     font-style: italic;
+    text-align: center;
     text-decoration: underline;
     justify-content: flex-start;
     text-shadow: 2px 2px red;
@@ -753,6 +754,9 @@ table {
         align-items: center;
         margin-bottom: 1%;
         
+    }
+    .nav .logo img{
+        height: 20vh;
     }
     .nav .logo{
         width: 100%;
