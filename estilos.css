@@ -895,5 +895,6 @@ table {
 .AlineacionDerechos{
     text-align: right;
     text-transform:uppercase;
+    font-style: italic;
 }
 
