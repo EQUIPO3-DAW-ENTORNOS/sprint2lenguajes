@@ -1,0 +1,274 @@
+
+
+
+
+:root{
+    padding: 0;
+    margin: 0;
+}
+::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+.radio label, input{
+    cursor: pointer;
+}
+
+#input-email{
+    width: 85%;
+}
+#select{
+    padding: 5px 12px;
+    background-color: #444444;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.4s;
+    cursor: pointer;
+    position: relative;
+    left: 4px;
+}
+#flecha{
+    padding: 7px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #777777;
+    transition: all 0.4s;
+  
+}
+
+.select-body:hover{
+    border: 2px solid white;
+}
+.select-body:hover #flecha{
+    color: white;
+}
+
+.input-clock{
+    background-color: #444444;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.input-clientes{
+    background-color: #444444;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contenedor-imgs{
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 800px;
+
+}
+.imgs img{
+    height: 40vh;
+    margin: 2% 4%;
+}
+
+  .color-prueba1{
+    color:rgb(78, 54, 54);
+}
+ 
+  .color-prueba3{
+      color:rgb(187, 71, 56);
+  }
+
+.color-prueba2{
+    color:orange
+}
+
+.margen{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.body{
+    font-family: Garamond, serif;
+    height: 100%;
+}
+.margin30{
+    margin:1%;
+}
+
+.fondounico{
+    background-color: aqua;
+}
+
+.cocina:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.responsive{
+    width: 96%;
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+.fondounico{
+    background-color: aqua;
+}
+
+.colorsolido{
+    background-color:#000000;
+}
+
+.color-parrafo{
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-width: 6%;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 10px;
+  }
+  
+  td {
+    width: 20%;
+    padding: 12px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(248, 248, 250);
+    border-radius: 50px;
+    padding: 12px;
+  }
+  
+  td:nth-child(even) {
+    background-color: #777;
+  }
+  tr{
+      transition: all 0.4s;
+  }
+  tr:hover {
+    background-color: rgb(189, 29, 29);
+  }
+
+
+@media screen and (max-width: 1600px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+        
+    }
+    .nav .logo img{
+        height: 20vh;
+    }
+    .nav .logo{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav .enlaces{
+        display: block;
+    }
+    #enviar:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #limpiar:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .nav{
+        margin: 0;
+        padding: 0;
+    }
+    .enlaces {
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .enlaces li{
+        display: unset;
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .enlaces li a{
+        display: unset;
+        width: 100%;
+
+    }
+    .enlaces ul{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    .enlaces ul li{
+        width: 100%;
+        border-radius: none;
+    }
+   
+    #flecha{
+        display: none;
+    }
+    .inputs{
+        margin-bottom: 2vh;
+    }
+   
+   
+
+}
+
+@media screen and (max-width: 1060px){
+    .enlaces li{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .enlaces li{
+        margin-top: 7%;
+    }
+}
+
+.color-parrafo{
+    
+    
+    background-color: white;
+}
+
+.color-parrafo3{
+    text-align: center;
+   margin-top: 0.25%;
+    color:rgb(255, 255, 255);
+}
+.fondo{
+    background-color: rgb(155, 151, 151);
+}
+
+
+
