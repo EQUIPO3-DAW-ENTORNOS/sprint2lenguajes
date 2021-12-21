@@ -249,10 +249,7 @@
 
 
 /* CREACION DEL MENÚ DE NAVEGACIÓN */
-.enlaces{
-    width: 70%;
-    display: flex;
-}
+
 .enlaces li{
     list-style: none;
     justify-content: space-around;
@@ -289,13 +286,7 @@
 .enlaces ul{
     width: 100%;
 }
-.logo{
-    cursor: pointer;
-    width: 30%;
-    height: 20vh;
-    display: flex;
-    
-}
+
 .logo img{
     border-radius: 100%;
 }
@@ -304,12 +295,7 @@
     align-items: center;
     font-size: 47px;
 }
-.nav{
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    background-color: white;
-    width: 100%;
-}
+
 #color-logo{
     color: rgb(189, 29, 29);
 }
@@ -424,9 +410,7 @@
     color:orange
 }
 
-.color-precios{
-    color:rgb(97, 11, 11)
-}
+
  .color-about{
      color:maroon
  }
