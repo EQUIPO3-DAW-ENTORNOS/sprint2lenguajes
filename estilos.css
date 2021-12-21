@@ -11,26 +11,9 @@
     font-size: 17px;
 }
 
-/* FORMULARIO  */
-
-    /* CONTENEDOR DEL FORMULARIO  */
-
-
-
-
-    /* INPUTS DEL FORMULARIO  */
-
-
-
-
-
-
 .radio label, input{
     cursor: pointer;
 }
-
-
-
 
 #input-email{
     width: 85%;
@@ -57,20 +40,12 @@
   
 }
 
-
-
 .select-body:hover{
     border: 2px solid white;
 }
 .select-body:hover #flecha{
     color: white;
 }
-
-
-
-
-
-
 
 .input-clock{
     background-color: #444444;
@@ -87,37 +62,6 @@
     font-size: 13px;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CREACION DEL MENÚ DE NAVEGACIÓN */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MENU DE IMAGENES */
 
 .contenedor-imgs{
     display: flex;
@@ -140,60 +84,18 @@
     margin: 2% 4%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MENU DE GOOGLE MAPS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* COLORES */
-
-
   .color-prueba1{
     color:rgb(78, 54, 54);
 }
-    
-    
  
   .color-prueba3{
       color:rgb(187, 71, 56);
   }
 
-  
 .color-prueba2{
     color:orange
 }
 
-
- 
 .margen{
     margin-top: 30px;
     margin-right: 20px;
@@ -209,41 +111,14 @@
     margin:1%;
 }
 
-
-
-
 .fondounico{
     background-color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* IMÁGENES */
-
-
-
-
-/*animación de las imagenes*/
 
 .cocina:hover .overlay {
     bottom: 0;
     height: 100%;
 }
-/*texto del hover*/
 
 .responsive{
     width: 96%;
@@ -251,67 +126,18 @@
     margin:  0 auto;
 }
 
-
-
-/*Difuminado(opacity)*/
-
-/*bordes maps*/
-
-/*columnas*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FONDOS Y MARGENES */
 .fondounico{
     background-color: aqua;
 }
-
-
-
-
 
 .colorsolido{
     background-color:#000000;
 }
 
-
-
-
 .color-parrafo{
-    
-    
     background-color: white;
 }
 
-
-
-
-
-
-
-
-
-
-    /* TABLA */
 table {
     width: 100%;
     border-collapse:collapse;
@@ -322,7 +148,6 @@ table {
     border-color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 10px;
-    
   }
   
   td {
@@ -345,10 +170,6 @@ table {
     background-color: rgb(189, 29, 29);
   }
 
-
-
-
-/* MENU RESPONSIVE */
 
 @media screen and (max-width: 1600px){
     .nav{
@@ -434,39 +255,16 @@ table {
     }
 }
 
-/*Pablo Bravo*/
-.fondounico{
-    background-color: aqua;
-}
-
-
-  /*fran*/
-  
-  
-
- 
-
-
-.colorsolido{
-    background-color:#000000;
-}
-
-
-
-
 .color-parrafo{
     
     
     background-color: white;
 }
 
-
-
 .color-parrafo3{
     text-align: center;
    margin-top: 0.25%;
     color:rgb(255, 255, 255);
-   
 }
 .fondo{
     background-color: rgb(155, 151, 151);
