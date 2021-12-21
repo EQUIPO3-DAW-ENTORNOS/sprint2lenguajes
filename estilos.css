@@ -132,55 +132,7 @@
 
 /* CREACION DEL MENÚ DE NAVEGACIÓN */
 
-.enlaces li{
-    list-style: none;
-    justify-content: space-around;
-    transition: all 0.8s;
-  
-    
-}
-.enlaces ul{
-    display: inline;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.enlaces li:hover{
-    transform:scale(1.1,1.1);
-}
-.enlaces li a{
-    text-decoration: none;
-    color: rgb(189, 29, 29);
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.5s;
-    padding: 14px 25px;
-    background-color: #d3d2d2;
-    border-radius: 50px;
-}
 
-.enlaces li a:hover{
-    transform:scale(1.3,1.3);
-    color: white;
-    background-color: rgb(189,29,29);
-}
-
-.enlaces ul{
-    width: 100%;
-}
-
-.logo img{
-    border-radius: 100%;
-}
-#titulo-main{
-    margin-left: 20px;
-    align-items: center;
-    font-size: 47px;
-}
-
-#color-logo{
-    color: rgb(189, 29, 29);
-}
 
 
 
