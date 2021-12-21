@@ -14,11 +14,9 @@
         max-width: 960px;
         margin:  0 auto;
 }
-.opacity{
-    transition: all 0.3s;
-}
-.opacity:hover  {
-    opacity: 0.6;
+.imgservicios {
+    width: 100%;
+    padding-top: 5%;
     
 }
 
