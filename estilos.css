@@ -379,7 +379,7 @@
     height: 100vh;
 }
 .titulo-maps{
-    color: black;
+    color: rgba(253, 252, 252, 0.884);
     font-style: italic;
     text-align: center;
     text-decoration: underline;
