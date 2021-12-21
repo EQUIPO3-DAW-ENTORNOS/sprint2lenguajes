@@ -16,10 +16,7 @@
     /* CONTENEDOR DEL FORMULARIO  */
 
 
-.intro-form h2{
-    color: black;
-    font-size: 30px;
-}
+
 
     /* INPUTS DEL FORMULARIO  */
 
@@ -34,23 +31,7 @@
 
 
 
-.form-inputs input{
-    width: 85%;
-    outline: none;
-    border: none;
-    background-color: #444444;
-    color: white;
-    font-size: 16px;
-    border-bottom: 2px solid #666666;
-    transition: all 0.6s;
-}
-.form-inputs input:focus{
-    border-bottom: 2px solid white;
-}
-.form-inputs select{
-    appearance: none;
-    
-}
+
 #input-email{
     width: 85%;
 }
@@ -89,18 +70,8 @@
 
 
 
-.inputs i{
-    cursor: pointer;
-    padding: 3px;
-    color: #777777;
-    transition: all 0.4s;
-}
-.inputs:hover{
-    border: 2px solid white;
-}
-.inputs:hover i{
-    color: white;
-}
+
+
 .input-clock{
     background-color: #444444;
     color: white;
@@ -279,26 +250,16 @@
     max-width: 960px;
     margin:  0 auto;
 }
-.imgsalonlibre{
-    width: 50%;
-    -webkit-box-reflect:right 0px;
-}
 
-.imgservicios {
-    width: 100%;
-    padding-top: 5%;
-    
-}
+
+
 /*Difuminado(opacity)*/
 
 /*bordes maps*/
 
 /*columnas*/
 
-.reflection{
--webkit-box-reflect: right;
 
-}
 
 
 
@@ -449,27 +410,15 @@ table {
         width: 100%;
         border-radius: none;
     }
-    .form-down{
-        flex-direction: column;
-    }
-    .form-up{
-        flex-direction: column;
-    }
+   
     #flecha{
         display: none;
     }
     .inputs{
         margin-bottom: 2vh;
     }
-    .btn{
-        flex-direction: column;
-    }
-    .btn input{
-        margin-bottom: 2vh;
-    }
-    .form-body{
-        width: 60%;
-    }
+   
+   
 
 }
 
