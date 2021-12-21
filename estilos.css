@@ -169,9 +169,6 @@
     margin: 2% 4%;
 }
 
-.texto-servicios{
-    margin: 5%;
-}
 
 
 
@@ -247,12 +244,6 @@
 .fondounico{
     background-color: aqua;
 }
-.titulo-portada{
-    font-family: 'PT Serif', serif;
-    font-weight: 600;
-    line-height : 25px;
-    font-size: 21px;
-}
 
 
 
@@ -299,23 +290,11 @@
     
 }
 /*Difuminado(opacity)*/
-.opacity{
-    transition: all 0.3s;
-}
-.opacity:hover  {
-    opacity: 0.6;
-    
-}
+
 /*bordes maps*/
 
 /*columnas*/
-.columnas{
-column-count: 6;
-column-gap: 2%;
-column-rule:black 2px solid;
-column-width: 240px;
-/*img espejo*/
-}
+
 .reflection{
 -webkit-box-reflect: right;
 
@@ -344,26 +323,9 @@ column-width: 240px;
 .fondounico{
     background-color: aqua;
 }
-.titulo-portada{
-    font-family: 'PT Serif', serif;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: rgb(155, 151, 151);
-    
-    
-   
-    color:rgb(255, 255, 255)
-}
 
-.imagen-fondo{
-    width: 100%;
-  background-image: url("https://smoda.elpais.com/wp-content/uploads/2018/06/Goiko-591x447.jpg");
-  background-repeat:repeat;
- 
-  background-size: cover;
-  
-}
+
+
 
 
 .colorsolido{
@@ -371,11 +333,7 @@ column-width: 240px;
 }
 
 
-.segundo-parrafo{
-    margin-top: 35%;
-    
 
-}
 
 .color-parrafo{
     
@@ -383,44 +341,14 @@ column-width: 240px;
     background-color: white;
 }
 
-.color-parrafo2{
-    color:rgb(255, 255, 255);
-    padding-bottom: 0.2%;
-    text-align: center;
-    font-weight: 600;
-    line-height : 25px;
-    font-size: 21px;
-
-}
-
-.color-parrafo3{
-    text-align: center;
-    font-weight: 600;
-    line-height : 25px;
-    font-size: 21px;
-   margin-top: 0.25%;
-    color:rgb(255, 255, 255);
-   
-}
-.tachado{
-    text-align: center;
-    font-weight: 600;
-    line-height : 25px;
-    font-size: 21px;
-   margin-top: 0.25%;
-   text-decoration:line-through;
-    color: red;
-    color:rgb(255, 255, 255);
-   
-}
-.fondo{
-    background-color: rgb(155, 151, 151);
-}
 
 
-.espaciado{
-    margin-top: 5%;
-}
+
+
+
+
+
+
 
     /* TABLA */
 table {
@@ -561,17 +489,7 @@ table {
 .fondounico{
     background-color: aqua;
 }
-.titulo-portada{
-    font-family: 'PT Serif', serif;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: rgb(155, 151, 151);
-   
-    
-   
-    color:rgb(255, 255, 255)
-}
+
 
   /*fran*/
   
@@ -585,11 +503,7 @@ table {
 }
 
 
-.segundo-parrafo{
-    margin-top: 75%;
-    
 
-}
 
 .color-parrafo{
     
@@ -597,12 +511,7 @@ table {
     background-color: white;
 }
 
-.color-parrafo2{
-    color:rgb(255, 255, 255);
-    padding-bottom: 0.2%;
-    text-align: center;
 
-}
 
 .color-parrafo3{
     text-align: center;
