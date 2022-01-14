@@ -1,0 +1,196 @@
+/*Pagina_Inicio_Layout*/
+.espaciado{
+    margin-top: 5%;
+}
+.imagen-fondo{
+    width: 100%;
+  background-image: url("https://smoda.elpais.com/wp-content/uploads/2018/06/Goiko-591x447.jpg");
+  background-repeat:repeat;
+ 
+  background-size: cover; 
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(155, 151, 151);
+    
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+    
+   
+    color:rgb(255, 255, 255)
+}
+.segundo-parrafo{
+    margin-top: 75%;
+}
+.tachado{
+    text-align: center;
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+   margin-top: 0.25%;
+   text-decoration:line-through;
+    color: red;
+    color:rgb(255, 255, 255); 
+}
+/*Pagina_Inicio_Layout*/
+
+/*Reserva_Layout*/
+.form{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-body{
+    width: 60%;
+}
+.form-inputs{
+    padding: 20px; 
+}
+.form-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;   
+}
+.form-up{
+    flex-direction: column;
+}
+.inputs{
+    margin-bottom: 2vh;
+}
+.form-down{
+    flex-direction: column;
+}
+.form-down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-footer{
+    display: flex;
+    margin-right: 8px;
+    flex-direction: column;
+}
+.form-footer .textarea textarea{
+    resize: none;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #666666;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+.form-footer .textarea textarea:focus{
+    outline: none;
+    border: 2px solid white;
+}
+.form-footer .botones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.form-footer .botones .check{
+    display: flex;
+    align-items: center;
+}
+.form-footer .botones .btn{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.form-footer .botones .check label{
+    cursor: pointer;
+}
+.form-footer .botones .check label a{
+    color: rgb(76, 243, 243);
+}
+.form-footer .botones .btn input{
+    padding: 15px 30px;
+    margin-left: 25px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn{
+    flex-direction: column;
+}
+.btn input{
+    margin-bottom: 2vh;
+}
+/*Reserva_Layout*/
+
+/*Contactus_Layout*/
+.form-body{
+    background-color: #444444;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    width: 40%;
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0px;
+}
+.contenedor-maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+/*Contactus_Layout*/
+
+/*Pagina_Libre_Layout*/
+.texto-servicios{
+    margin: 5%;
+}
+.responsive{
+    width: 96%;
+    max-width: 960px;
+    margin:  0 auto;
+}
+/*Pagina_Libre_Layout*/
+
+/*Aboutus_Layout*/
+.margin50{
+    margin:4%;
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-width: 6%;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 10px;
+}
+td {
+    width: 20%;
+    padding: 12px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(248, 248, 250);
+    border-radius: 50px;
+    padding: 12px;
+  }
+/*Aboutus_Layout*/
