@@ -1,0 +1,19 @@
+.segundo-parrafo{
+    margin-top: 75%;
+}
+.color-parrafo3{
+    text-align: center;
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+   margin-top: 0.25%;
+    color:rgb(255, 255, 255);   
+}
+.color-parrafo2{
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.2%;
+    text-align: center;
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+}
