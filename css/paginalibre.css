@@ -1,4 +1,3 @@
-
 .input-clientes{
     background-color: #444444;
     color: white;
@@ -7,10 +6,6 @@
     font-size: 13px;
     font-weight: 600;
 }
-.inputs{
-    margin-bottom: 2vh;
-}
-
 .input-clock{
     background-color: #444444;
     color: white;
@@ -19,10 +14,9 @@
     font-size: 18px;
 }
 .reflection{
-    -webkit-box-reflect: right;
-    
+    -webkit-box-reflect: right;  
 }
-.imgsalonlibre{
+.imgsalonlibre{  
     width: 50%;
     -webkit-box-reflect:right 0px;
 }
