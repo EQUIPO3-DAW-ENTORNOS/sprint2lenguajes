@@ -79,22 +79,7 @@
     height: 800px;
 
 }
-.imgs img{
-    height: 40vh;
-    margin: 2% 4%;
-}
 
-  .color-prueba1{
-    color:rgb(78, 54, 54);
-}
- 
-  .color-prueba3{
-      color:rgb(187, 71, 56);
-  }
-
-.color-prueba2{
-    color:orange
-}
 
 .margen{
     margin-top: 30px;
@@ -103,10 +88,6 @@
     margin-left: 20px;
 }
 
-.body{
-    font-family: Garamond, serif;
-    height: 100%;
-}
 .margin30{
     margin:1%;
 }
@@ -235,9 +216,7 @@ table {
     #flecha{
         display: none;
     }
-    .inputs{
-        margin-bottom: 2vh;
-    }
+   
    
    
 
