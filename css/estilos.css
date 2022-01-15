@@ -2,14 +2,7 @@
 
 
 
-:root{
-    padding: 0;
-    margin: 0;
-}
-::placeholder{
-    color: white;
-    font-size: 17px;
-}
+
 
 .radio label, input{
     cursor: pointer;
@@ -63,38 +56,14 @@
     font-weight: 600;
 }
 
-.contenedor-imgs{
-    display: flex;
-    width: 100%;
-    height: 1200px;
-    justify-content: center;
-    align-items: center;
-}
-.imgs{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 800px;
+
 
 }
 
 
-.margen{
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-}
 
-.margin30{
-    margin:1%;
-}
 
-.fondounico{
-    background-color: aqua;
-}
+
 
 .cocina:hover .overlay {
     bottom: 0;
@@ -111,9 +80,6 @@
     background-color: aqua;
 }
 
-.colorsolido{
-    background-color:#000000;
-}
 
 .color-parrafo{
     background-color: white;
@@ -131,15 +97,7 @@ table {
     padding: 10px;
   }
   
-  td {
-    width: 20%;
-    padding: 12px;
-    border-style: outset;
-    border-width: medium;
-    border-color: rgb(248, 248, 250);
-    border-radius: 50px;
-    padding: 12px;
-  }
+
   
   td:nth-child(even) {
     background-color: #777;
@@ -150,104 +108,6 @@ table {
   tr:hover {
     background-color: rgb(189, 29, 29);
   }
-
-
-@media screen and (max-width: 1600px){
-    .nav{
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 1%;
-        
-    }
-    .nav .logo img{
-        height: 20vh;
-    }
-    .nav .logo{
-        width: 100%;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .nav .enlaces{
-        display: block;
-    }
-    #enviar:hover{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    #limpiar:hover{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-
-@media screen and (max-width: 1370px){
-    .nav{
-        margin: 0;
-        padding: 0;
-    }
-    .enlaces {
-        text-align: center;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .enlaces li{
-        display: unset;
-        display: block;
-        width: 100%;
-        margin-top: 3%;
-    }
-    .enlaces li a{
-        display: unset;
-        width: 100%;
-
-    }
-    .enlaces ul{
-        width: 100%;
-        display: block;
-        flex-direction: column;
-    }
-    .enlaces ul li{
-        width: 100%;
-        border-radius: none;
-    }
-   
-    #flecha{
-        display: none;
-    }
-   
-   
-   
-
-}
-
-@media screen and (max-width: 1060px){
-    .enlaces li{
-        margin-top: 5%;
-    }
-}
-
-@media screen and (max-width: 570px){
-    .enlaces li{
-        margin-top: 7%;
-    }
-}
-
-.color-parrafo{
-    
-    
-    background-color: white;
-}
-
-.color-parrafo3{
-    text-align: center;
-   margin-top: 0.25%;
-    color:rgb(255, 255, 255);
-}
-.fondo{
-    background-color: rgb(155, 151, 151);
-}
 
 
 
