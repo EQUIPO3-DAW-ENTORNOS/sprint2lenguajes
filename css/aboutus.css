@@ -13,6 +13,11 @@
 .flex-imgcocina{
     width: 100%;
 }
+
+.cocina:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
 .overlay{
     position:absolute;
     bottom: 100%;
