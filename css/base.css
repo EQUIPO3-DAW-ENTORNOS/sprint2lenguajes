@@ -1,4 +1,8 @@
 /*General*/
+.body{
+    font-family: Garamond, serif;
+    height: 100%;
+}
 :root{
     padding: 0;
     margin: 0;
@@ -22,6 +26,10 @@
     width: 80%;
     height: 800px;
 }
+.imgs img{
+    height: 40vh;
+    margin: 2% 4%;
+}
 .margen{
     margin-top: 30px;
     margin-right: 20px;
@@ -37,11 +45,29 @@
 .colorsolido{
     background-color:#000000;
 }
+.color-prueba{
+    color:rgb(78, 54, 54);
+}
+.color-prueba1{
+    color:rgb(78, 54, 54);
+} 
+  .color-prueba3{
+      color:rgb(187, 71, 56);
+}
+.color-prueba2{
+    color:orange
+}
 .logo{
     cursor: pointer;
     width: 30%;
     height: 20vh;
     display: flex;   
+}
+.logo img{
+    border-radius: 100%;
+}
+#color-logo{
+    color: rgb(189, 29, 29);
 }
 .enlaces{
     width: 70%;
@@ -98,15 +124,46 @@
         width: 100%;
         margin-top: 3%;
     }
+    .enlaces li{
+        list-style: none;
+        justify-content: space-around;
+        transition: all 0.8s;
+    }
     .enlaces li a{
         display: unset;
         width: 100%;
-
+    }
+    .enlaces li a{
+        text-decoration: none;
+        color: rgb(189, 29, 29);
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.5s;
+        padding: 14px 25px;
+        background-color: #d3d2d2;
+        border-radius: 50px;
+    }
+    .enlaces li a:hover{
+        transform:scale(1.3,1.3);
+        color: white;
+        background-color: rgb(189,29,29);
+    }
+    .enlaces li:hover{
+        transform:scale(1.1,1.1);
     }
     .enlaces ul{
         width: 100%;
         display: block;
         flex-direction: column;
+    }
+    .enlaces ul{
+        width: 100%;
+    }
+    .enlaces ul{
+        display: inline;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     .enlaces ul li{
         width: 100%;
@@ -136,6 +193,60 @@
 }
 .fondo{
     background-color: rgb(155, 151, 151);
+}
+.fondo1{
+    background-image: linear-gradient(180deg,white,#f7adbd) ;
+}
+.fondo2{
+    background-image: linear-gradient(180deg,#f7adbd,white);
+}
+.AlineacionDerechos{
+    text-align: right;
+    text-transform:uppercase;
+    font-style: italic;
+    text-decoration: overline;
+}
+#titulo-main{
+    margin-left: 20px;
+    align-items: center;
+    font-size: 47px;
+    color: rgb(255, 255, 255);
+}
+.intro-form h2{
+    color: black;
+    font-size: 30px;
+}
+.intro-form p{
+    color: black;
+    font-size: 20px;
+}
+.form-inputs input{
+    width: 85%;
+    outline: none;
+    border: none;
+    background-color: #444444;
+    color: white;
+    font-size: 16px;
+    border-bottom: 2px solid #666666;
+    transition: all 0.6s;
+}
+.form-inputs input:focus{
+    border-bottom: 2px solid white;
+}
+.form-inputs select{
+    appearance: none;   
+}
+.inputs i{
+    cursor: pointer;
+    padding: 3px;
+    color: #777777;
+    transition: all 0.4s;
+}
+.inputs:hover{
+    border: 2px solid white;
+}
+.inputs:hover i{
+    color: white;
 }
 /*General*/
 
