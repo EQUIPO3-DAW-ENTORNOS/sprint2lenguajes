@@ -20,3 +20,9 @@
     width: 50%;
     -webkit-box-reflect:right 0px;
 }
+.opacity{
+    transition: all 0.3s;
+}
+.opacity:hover  {
+    opacity: 0.6;  
+}
