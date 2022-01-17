@@ -1,0 +1,110 @@
+.nav{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+@media screen and (max-width: 1600px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+        
+    }
+    .nav .logo img{
+        height: 20vh;
+    }
+    .nav .logo{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav .enlaces{
+        display: block;
+    }
+    #enviar:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #limpiar:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 1370px){
+    .nav{
+        margin: 0;
+        padding: 0;
+    }
+    .enlaces {
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .enlaces li{
+        display: unset;
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .enlaces li{
+        list-style: none;
+        justify-content: space-around;
+        transition: all 0.8s;
+    }
+    .enlaces li a{
+        display: unset;
+        width: 100%;
+    }
+    .enlaces li a{
+        text-decoration: none;
+        color: rgb(189, 29, 29);
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.5s;
+        padding: 14px 25px;
+        background-color: #d3d2d2;
+        border-radius: 50px;
+    }
+    .enlaces li a:hover{
+        transform:scale(1.3,1.3);
+        color: white;
+        background-color: rgb(189,29,29);
+    }
+    .enlaces li:hover{
+        transform:scale(1.1,1.1);
+    }
+    .enlaces ul{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    .enlaces ul{
+        width: 100%;
+    }
+    .enlaces ul{
+        display: inline;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .enlaces ul li{
+        width: 100%;
+        border-radius: none;
+    }
+    #flecha{
+        display: none;
+    }
+}
+@media screen and (max-width: 1060px){
+    .enlaces li{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 570px){
+    .enlaces li{
+        margin-top: 7%;
+    }
+}
