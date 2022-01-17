@@ -137,4 +137,8 @@
 .margin50{
     margin:4%;
 }
+.horizontal {
+  display: flex ;
+  justify-content: space-around;
+}
 /*Aboutus_Layout*/
