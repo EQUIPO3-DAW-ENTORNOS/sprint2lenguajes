@@ -4,10 +4,6 @@
     font-family: Garamond, serif;
     height: 100%;
 }
-:root{
-    padding: 0;
-    margin: 0;
-}
 ::placeholder{
     color: white;
     font-size: 17px;
@@ -99,7 +95,6 @@
     line-height : 25px;
     font-size: 21px;
 }
-
 /*Pagina_Inicio_Base*/
 
 /*Pagina_Libre_Base*/
@@ -118,8 +113,6 @@
     border: none;
     font-size: 18px;
 }
-
-
 .opacity{
     transition: all 0.3s;
 }
