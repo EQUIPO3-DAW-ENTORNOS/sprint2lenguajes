@@ -10,20 +10,8 @@
 .form-inputs{
     padding: 20px; 
 }
-.form-up{
-    margin-bottom: 20px;   
-}
-.form-up{
-    flex-direction: column;
-}
-.form-down{
-    flex-direction: column;
-}
 .form-down{
     margin-top: 10px;
-}
-.form-footer{
-    margin-right: 8px;
 }
 .form-footer .textarea textarea{
     resize: none;
@@ -43,14 +31,8 @@
 .form-footer .botones{
     width: 100%;
 }
-.form-footer .botones .check{
-    display: flex;
-    align-items: center;
-}
 .form-footer .botones .btn{
     width: 50%;
-    display: flex;
-    justify-content: space-around;
 }
 .form-footer .botones .check label{
     cursor: pointer;
@@ -59,19 +41,10 @@
     color: rgb(76, 243, 243);
 }
 .form-footer .botones .btn input{
-    padding: 15px 30px;
-    margin-left: 25px;
-    border-radius: 50px;
-    border: none;
     color: white;
-    font-size: 15px;
-    font-weight: 700;
 }
 .form-body{
     background-color: #444444;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 15px;
     width: 40%;
 }
 .intro-form h2{
