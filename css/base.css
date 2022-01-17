@@ -1,19 +1,11 @@
 /*General*/
-.nav-link
 .body{
     font-family: Garamond, serif;
     height: 100%;
 }
-:root{
-    padding: 0;
-    margin: 0;
-}
 ::placeholder{
     color: white;
     font-size: 17px;
-}
-.margin30{
-    margin:1%;
 }
 .fondounico{
     background-color: aqua;
@@ -40,8 +32,6 @@
     background-color: white;
 }
 .color-parrafo3{
-    text-align: center;
-   margin-top: 0.25%;
     color:rgb(255, 255, 255);
 }
 .color-about{
@@ -52,7 +42,6 @@
 }
 .enlaces{
     width: 70%;
-    display: flex;
 }
 .fondo{
     background-color: rgb(155, 151, 151);
@@ -70,14 +59,11 @@
     text-decoration: overline;
 }
 #titulo-main{
-    margin-left: 20px;
-    align-items: center;
     font-size: 47px;
     color: rgb(255, 255, 255);
 }
 .inputs i{
     cursor: pointer;
-    padding: 3px;
     color: #777777;
     transition: all 0.4s;
 }
@@ -132,11 +118,7 @@
 /*Contactus_Base*/
 
 /*Servicios_Base*/
-.responsive{
-    width: 96%;
-    max-width: 960px;
-    margin:  0 auto;
-}
+
 /*Servicios_Base*/
 
 /*Aboutus_Base*/
