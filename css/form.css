@@ -3,10 +3,6 @@
     font-weight: 700;
     color: white;
     padding: 39px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .form-body{
     width: 60%;
@@ -15,8 +11,6 @@
     padding: 20px; 
 }
 .form-up{
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;   
 }
 .form-up{
@@ -26,18 +20,13 @@
     flex-direction: column;
 }
 .form-down{
-    display: flex;
-    justify-content: space-between;
     margin-top: 10px;
 }
 .form-footer{
-    display: flex;
     margin-right: 8px;
-    flex-direction: column;
 }
 .form-footer .textarea textarea{
     resize: none;
-    margin-top: 20px;
     width: 100%;
     background-color: #666666;
     color: white;
@@ -53,10 +42,6 @@
 }
 .form-footer .botones{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px
 }
 .form-footer .botones .check{
     display: flex;
