@@ -1,18 +1,12 @@
 .cocina{
-    position: relative;
     width: 30%;
-    object-fit: cover;
-    object-position: center center;
 }
 .cocina:hover .overlay {
     bottom: 0;
     height: 100%;
 }
 .overlay{
-    position:absolute;
     bottom: 100%;
-    left: 0;
-    right: 0;
     background-color: #17191a;
     overflow: hidden;
     width: 100%;
@@ -22,13 +16,6 @@
 .textococina{
     white-space: nowrap; 
     color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
 } 
 td:nth-child(even) {
     background-color: #777;
