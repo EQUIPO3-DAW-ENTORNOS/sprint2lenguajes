@@ -52,6 +52,12 @@
         "footer footer footer footer footer footer";
     }
   }
+  .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 /*Layout_General*/
 /*Pagina_Inicio_Layout*/
 .espaciado{
