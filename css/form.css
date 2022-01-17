@@ -10,9 +10,6 @@
 .form-inputs{
     padding: 20px; 
 }
-.form-down{
-    margin-top: 10px;
-}
 .form-footer .textarea textarea{
     resize: none;
     width: 100%;

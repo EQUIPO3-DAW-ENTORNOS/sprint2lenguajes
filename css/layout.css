@@ -157,6 +157,9 @@
   flex-direction: column;
 }
 .form-down{
+  margin-top: 10px;
+}
+.form-down{
   display: flex;
   justify-content: space-between;
 }

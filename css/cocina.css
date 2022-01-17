@@ -1,17 +1,9 @@
-.color-about{
-    color:maroon
-}
-.color-precios{
-    color:rgb(97, 11, 11)
-}
 .cocina{
     position: relative;
     width: 30%;
     object-fit: cover;
     object-position: center center;
 }
-
-
 .cocina:hover .overlay {
     bottom: 0;
     height: 100%;
