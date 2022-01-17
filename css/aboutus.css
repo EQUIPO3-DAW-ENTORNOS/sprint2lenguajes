@@ -10,9 +10,7 @@
     object-fit: cover;
     object-position: center center;
 }
-.flex-imgcocina{
-    width: 100%;
-}
+
 
 .cocina:hover .overlay {
     bottom: 0;

@@ -28,3 +28,15 @@
 .logo img{
     border-radius: 100%;
 }
+.imgservicios {
+    width: 100%;
+    padding-top: 5%; 
+}
+.imgsalonlibre{  
+    width: 50%;
+    -webkit-box-reflect:right 0px;
+}
+.flex-imgcocina{
+    width: 100%;
+}
+
