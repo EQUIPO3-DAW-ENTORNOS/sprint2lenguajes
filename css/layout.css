@@ -97,6 +97,17 @@
     color: red;
     color:rgb(255, 255, 255); 
 }
+.segundo-parrafo{
+  margin-top: 75%;
+}
+.color-parrafo3{
+  text-align: center;
+  margin-top: 0.25%;
+}
+.color-parrafo2{
+  text-align: center;
+  padding-bottom: 0.2%;
+}
 /*Pagina_Inicio_Layout*/
 
 /*Reserva_Layout*/

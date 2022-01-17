@@ -86,6 +86,19 @@
 .fondo{
     background-color: rgb(155, 151, 151);
 }
+.color-parrafo3{
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+    color:rgb(255, 255, 255);   
+}
+.color-parrafo2{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+}
+
 /*Pagina_Inicio_Base*/
 
 /*Pagina_Libre_Base*/
