@@ -94,92 +94,8 @@
 /*Pagina_Inicio_Layout*/
 
 /*Reserva_Layout*/
-.form{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    color: white;
-    padding: 39px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.form-body{
-    width: 60%;
-}
-.form-inputs{
-    padding: 20px; 
-}
-.form-up{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;   
-}
-.form-up{
-    flex-direction: column;
-}
 .inputs{
     margin-bottom: 2vh;
-}
-.form-down{
-    flex-direction: column;
-}
-.form-down{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.form-footer{
-    display: flex;
-    margin-right: 8px;
-    flex-direction: column;
-}
-.form-footer .textarea textarea{
-    resize: none;
-    margin-top: 20px;
-    width: 100%;
-    background-color: #666666;
-    color: white;
-    font-size: 17px;
-    outline: none;
-    border: 2px solid #666666;
-    transition: all 0.4s;
-    border-radius: 5px;
-}
-.form-footer .textarea textarea:focus{
-    outline: none;
-    border: 2px solid white;
-}
-.form-footer .botones{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px
-}
-.form-footer .botones .check{
-    display: flex;
-    align-items: center;
-}
-.form-footer .botones .btn{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-.form-footer .botones .check label{
-    cursor: pointer;
-}
-.form-footer .botones .check label a{
-    color: rgb(76, 243, 243);
-}
-.form-footer .botones .btn input{
-    padding: 15px 30px;
-    margin-left: 25px;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
 }
 .btn{
     flex-direction: column;
@@ -190,13 +106,6 @@
 /*Reserva_Layout*/
 
 /*Contactus_Layout*/
-.form-body{
-    background-color: #444444;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 15px;
-    width: 40%;
-}
 .radio{
     display: flex;
     justify-content: space-between;
@@ -228,24 +137,4 @@
 .margin50{
     margin:4%;
 }
-table {
-    width: 100%;
-    border-collapse:collapse;
-    text-align: center;
-    padding: 15px;
-    border-style: solid;
-    border-width: 6%;
-    border-color: rgb(255, 255, 255);
-    border-radius: 10%;
-    padding: 10px;
-}
-td {
-    width: 20%;
-    padding: 12px;
-    border-style: outset;
-    border-width: medium;
-    border-color: rgb(248, 248, 250);
-    border-radius: 50px;
-    padding: 12px;
-  }
 /*Aboutus_Layout*/
