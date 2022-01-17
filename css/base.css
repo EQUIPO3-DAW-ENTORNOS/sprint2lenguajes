@@ -1,11 +1,19 @@
 /*General*/
+.nav-link
 .body{
     font-family: Garamond, serif;
     height: 100%;
 }
+:root{
+    padding: 0;
+    margin: 0;
+}
 ::placeholder{
     color: white;
     font-size: 17px;
+}
+.margin30{
+    margin:1%;
 }
 .fondounico{
     background-color: aqua;
@@ -28,20 +36,17 @@
 #color-logo{
     color: rgb(189, 29, 29);
 }
+.enlaces{
+    width: 70%;
+    display: flex;
+}
 .color-parrafo{
     background-color: white;
 }
 .color-parrafo3{
+    text-align: center;
+   margin-top: 0.25%;
     color:rgb(255, 255, 255);
-}
-.color-about{
-    color:maroon
-}
-.color-precios{
-    color:rgb(97, 11, 11)
-}
-.enlaces{
-    width: 70%;
 }
 .fondo{
     background-color: rgb(155, 151, 151);
@@ -59,11 +64,14 @@
     text-decoration: overline;
 }
 #titulo-main{
+    margin-left: 20px;
+    align-items: center;
     font-size: 47px;
     color: rgb(255, 255, 255);
 }
 .inputs i{
     cursor: pointer;
+    padding: 3px;
     color: #777777;
     transition: all 0.4s;
 }
@@ -95,12 +103,47 @@
 /*Pagina_Inicio_Base*/
 
 /*Pagina_Libre_Base*/
+.input-clientes{
+    background-color: #444444;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.input-clock{
+    background-color: #444444;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+
+.opacity{
+    transition: all 0.3s;
+}
+.opacity:hover  {
+    opacity: 0.6;  
+}
+
 .color-parrafo{
     background-color: white;
 }
 /*Pagina_Libre_Base*/
 
 /*Contactus_Base*/
+.select-body{
+    border: 2px solid #666666;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.inputs{
+    border: 2px solid #666666;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
 .border{
     border:gray 5px solid;
     outline:black 4px solid;
@@ -118,7 +161,11 @@
 /*Contactus_Base*/
 
 /*Servicios_Base*/
-
+.responsive{
+    width: 96%;
+    max-width: 960px;
+    margin:  0 auto;
+}
 /*Servicios_Base*/
 
 /*Aboutus_Base*/
