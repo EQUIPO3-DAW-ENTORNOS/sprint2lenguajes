@@ -123,6 +123,33 @@
 /*Reserva_Layout*/
 
 /*Contactus_Layout*/
+.inputs{
+  padding: 5px;
+}
+#enviar:hover{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#limpiar:hover{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.titulo-maps{
+  text-align: center;
+  justify-content: flex-start;
+}
+#input-email{
+  width: 85%;
+}
+#select{
+  position: relative;
+  padding: 5px 12px;
+  left: 4px;
+}
+#flecha{
+  padding: 7px;
+  margin-right: 5px;
+}
 .radio{
     display: flex;
     justify-content: space-between;
