@@ -1,0 +1,7 @@
+/*Servicios*/
+.columnas{
+    column-count: 6;
+    column-gap: 2%;
+    column-rule:black 2px solid;
+    column-width: 240px;
+}
