@@ -1,15 +1,8 @@
-
-
-
 .color-about{
     color:maroon
 }
 .color-precios{
     color:rgb(97, 11, 11)
-}
-.horizontal {
-    display: flex ;
-    justify-content: space-around;
 }
 .cocina{
     position: relative;
@@ -17,8 +10,11 @@
     object-fit: cover;
     object-position: center center;
 }
-.flex-imgcocina{
-    width: 100%;
+
+
+.cocina:hover .overlay {
+    bottom: 0;
+    height: 100%;
 }
 .overlay{
     position:absolute;
@@ -42,7 +38,12 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 } 
-
-.margin50{
-    margin:4%;
+td:nth-child(even) {
+    background-color: #777;
 }
+tr{
+    transition: all 0.4s;
+}
+tr:hover {
+    background-color: rgb(189, 29, 29);
+  }

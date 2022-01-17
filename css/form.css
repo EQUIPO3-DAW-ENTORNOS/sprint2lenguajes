@@ -1,0 +1,73 @@
+.form{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 39px;
+}
+.form-body{
+    width: 60%;
+}
+.form-inputs{
+    padding: 20px; 
+}
+.form-down{
+    margin-top: 10px;
+}
+.form-footer .textarea textarea{
+    resize: none;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    border: 2px solid #666666;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+.form-footer .textarea textarea:focus{
+    outline: none;
+    border: 2px solid white;
+}
+.form-footer .botones{
+    width: 100%;
+}
+.form-footer .botones .btn{
+    width: 50%;
+}
+.form-footer .botones .check label{
+    cursor: pointer;
+}
+.form-footer .botones .check label a{
+    color: rgb(76, 243, 243);
+}
+.form-footer .botones .btn input{
+    color: white;
+}
+.form-body{
+    background-color: #444444;
+    width: 40%;
+}
+.intro-form h2{
+    color: black;
+    font-size: 30px;
+}
+.intro-form p{
+    color: black;
+    font-size: 20px;
+}
+.form-inputs input{
+    width: 85%;
+    outline: none;
+    border: none;
+    background-color: #444444;
+    color: white;
+    font-size: 16px;
+    border-bottom: 2px solid #666666;
+    transition: all 0.6s;
+}
+.form-inputs input:focus{
+    border-bottom: 2px solid white;
+}
+.form-inputs select{
+    appearance: none;   
+}

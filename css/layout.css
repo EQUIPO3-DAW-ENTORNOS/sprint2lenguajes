@@ -1,0 +1,208 @@
+/*Layout_General*/
+/* Style the header */
+.header {
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  /* The grid container */
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header header header header header"
+      "left left middle middle right right"
+      "footer footer footer footer footer footer";
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  }
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+  /* Style the left column */
+  .left {
+    grid-area: left;
+  }
+  /* Style the middle column */
+  .middle {
+    grid-area: middle;
+  }
+  /* Style the right column */
+  .right {
+    grid-area: right;
+  }
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-areas:
+        "header header header header header header"
+        "left left left left left left"
+        "middle middle middle middle middle middle"
+        "right right right right right right"
+        "footer footer footer footer footer footer";
+    }
+  }
+  .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+/*Layout_General*/
+/*Pagina_Inicio_Layout*/
+.espaciado{
+    margin-top: 5%;
+}
+.imagen-fondo{
+    width: 100%;
+  background-image: url("https://smoda.elpais.com/wp-content/uploads/2018/06/Goiko-591x447.jpg");
+  background-repeat:repeat;
+ 
+  background-size: cover; 
+}
+.titulo-portada{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(155, 151, 151);
+    
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+    
+   
+    color:rgb(255, 255, 255)
+}
+.segundo-parrafo{
+    margin-top: 75%;
+}
+.tachado{
+    text-align: center;
+    font-weight: 600;
+    line-height : 25px;
+    font-size: 21px;
+   margin-top: 0.25%;
+   text-decoration:line-through;
+    color: red;
+    color:rgb(255, 255, 255); 
+}
+/*Pagina_Inicio_Layout*/
+
+/*Reserva_Layout*/
+.inputs{
+    margin-bottom: 2vh;
+}
+.btn{
+    flex-direction: column;
+}
+.btn input{
+    margin-bottom: 2vh;
+}
+/*Reserva_Layout*/
+
+/*Contactus_Layout*/
+.radio{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0px;
+}
+.contenedor-maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-up{
+  display: flex;
+  justify-content: space-between;  
+}
+.form-up{
+  flex-direction: column;
+}
+.form-up{
+  margin-bottom: 20px;   
+}
+.form-down{
+  flex-direction: column;
+}
+.form-down{
+  display: flex;
+  justify-content: space-between;
+}
+.form-footer{
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
+.form-footer .textarea textarea{
+  margin-top: 20px;
+}
+.form-footer .botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px
+}
+.form-footer .botones .check{
+  display: flex;
+  align-items: center;
+}
+.form-footer .botones .btn{
+  display: flex;
+  justify-content: space-around;
+}
+.form-footer .botones .btn input{
+  padding: 15px 30px;
+  margin-left: 25px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+.form-body{
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+/*Contactus_Layout*/
+
+/*Pagina_Libre_Layout*/
+.texto-servicios{
+    margin: 5%;
+}
+.responsive{
+    width: 96%;
+    max-width: 960px;
+    margin:  0 auto;
+}
+/*Pagina_Libre_Layout*/
+
+/*Aboutus_Layout*/
+.margin50{
+    margin:4%;
+}
+.horizontal {
+  display: flex ;
+  justify-content: space-around;
+}
+/*Aboutus_Layout*/
