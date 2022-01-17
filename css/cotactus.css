@@ -1,71 +1,9 @@
-.inputs{
-    padding: 5px;
-    border: 2px solid #666666;
-    border-radius: 5px;
-    transition: all 0.4s;
-}
-.select-body{
-    border: 2px solid #666666;
-    border-radius: 5px;
-    transition: all 0.4s;
-}
-#enviar:hover{
-    padding-left: 40px;
-    padding-right: 40px;
-    letter-spacing: 1px;
-    background-color: rgb(7, 148, 7);
-    color: white;
-}
-#limpiar{
-    cursor: pointer;
-    background-color: rgb(97, 7, 7);
-    transition: all 0.5s;
-}
-#limpiar:hover{
-    padding-left: 35px;
-    padding-right: 35px;
-    letter-spacing: 1px;
-    background-color: rgb(167, 9, 9);
-    color: white;
-}
-.titulo-maps{
-    color: rgba(253, 252, 252, 0.884);
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline;
-    justify-content: flex-start;
-    text-shadow: 2px 2px red;
-    font-size: 35px;
-    font-weight: 600;
-}
-#input-email{
-    width: 85%;
-}
-#select{
-    padding: 5px 12px;
-    background-color: #444444;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-    transition: all 0.4s;
-    cursor: pointer;
-    position: relative;
-    left: 4px;
-}
-.select-body:hover{
-    border: 2px solid white;
-}
-.select-body:hover #flecha{
-    color: white;
-}
-#flecha{
-    padding: 7px;
-    margin-right: 5px;
-    font-size: 20px;
-    color: #777777;
-    transition: all 0.4s; 
-}
+
+
+
+
+
+
+
 
 
