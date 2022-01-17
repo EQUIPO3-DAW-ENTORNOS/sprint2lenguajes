@@ -67,23 +67,29 @@
 
         <!-- Añadir el formulario -->
  
-        <form action="" class="form-body">
+        <form action="/action_page.php" class="was-validated form-body "  >
             <div>
                 <div class="form-inputs">
                     <div class="form-up">
                         <div class="inputs">
-                            <label for=""><i class="far fa-user"></i></label>
-                            <input type="text" required placeholder="Antonio Pérez...">  
+                            <label class="form-label for=""><i class="far fa-user"></i></label>
+                            <input class="form-control" type="text" required placeholder="Antonio Pérez...">  
+                            <div class="valid-feedback">Válido.</div>
+                            <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
                         <div class="inputs">
-                            <label for=""><i class="fas fa-phone"></i></label>
-                            <input type="tel" required placeholder="123456789...">
+                            <label class="form-label"for=""><i class="fas fa-phone"></i></label>
+                            <input  class="form-control" type="tel" required placeholder="123456789...">
+                            <div class="valid-feedback">Válido.</div>
+                            <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
                     </div>
                     
                     <div class="inputs">
-                        <label for=""><i class="far fa-envelope"></i></label>
-                        <input type="email" required placeholder="aaa@gmail.com">
+                        <label class="form-label" for=""><i class="far fa-envelope"></i></label>
+                        <input class="form-control" type="email" required placeholder="aaa@gmail.com">
+                        <div class="valid-feedback">Válido.</div>
+                        <div class="invalid-feedback">Rellena este campo.</div>
                     </div>
                     
                 </div>
@@ -91,13 +97,24 @@
 
                 <div class="form-down">
                     <div class="inputs">
-                        <label for="">Número de personas (Máximo 25): </label>
-                        <input type="number" required max="25" min="1" class="input-clientes">
+                        <label class="form-label" for="">Número de personas (Máximo 25): </label>
+                        <input  class="form-control" type="number" required max="25" min="1" class="input-clientes">
+
+                        <div class="valid-feedback">Válido.</div>
+                        <div class="invalid-feedback">Rellena este campo.</div>
+
                     </div>
                     <div class="inputs">
-                        <label for=""><i class="far fa-clock"></i></label>
-                        <input type="date" name="" id="" required class="input-clock">
-                        <input type="time" name="" id="" required class="input-clock">
+                        <label class="form-label"for=""><i class="far fa-clock"></i></label>
+                        <input  class="form-control" type="date" name="" id="" required  
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Rellena este campo.</div>
+
+
+                        Hora:
+                        <input  class="form-control" type="time" name="" id="" required class="input-clock">
+                        <div class="valid-feedback">Válido.</div>
+                        <div class="invalid-feedback">Rellena este campo.</div>
                     </div>
                 </div>
             
@@ -109,20 +126,24 @@
 
                 <div class="form-footer">
                     <div class="textarea">
-                        <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                        <textarea   class="form-control  name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                         <div class="valid-feedback">Válido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
                     </div>
                     
     
                     <div class="botones">
-                        <div class="check">
-                            <input type="checkbox" checked required>
-                            <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
-                        </div>
+                      <div class="check">
+                          <input data-bs-toggle="tooltip" title="Acepte los términos" type="checkbox" checked required>
+                          <label class="form-check-label" for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                          <div class="valid-feedback">Válido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
+                      </div>
                         
         
                         <div class="btn">
-                            <input id="enviar" type="submit" value="Enviar">
-                            <input id="limpiar" type="reset" value="Limpiar">
+                            <input id="enviar" type="submit" value="Enviar" data-bs-toggle="tooltip" title=" Pulsa para enviar...">
+                            <input id="limpiar" type="reset" value="Limpiar" data-bs-toggle="tooltip" title=" Pulsa para limpiar..."">
                         </div>
                         
                     </div>
