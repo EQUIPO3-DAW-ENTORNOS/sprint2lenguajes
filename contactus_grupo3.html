@@ -86,7 +86,7 @@
                     <!-- Añadir selector -->
 
                     <div class="select-body" data-bs-toggle="tooltip valid-feedback">
-                        <select class="form-select" name="producto" id="select">
+                        <select class="form-select" data-bs-toggle="tooltip" title="Seleccione una opción..." name="producto" id="select">
                             <option value="0" selected hidden></option>
                             <option value="1">Soporte técnico</option>
                             <option value="2">Alérgenos</option>
@@ -103,17 +103,17 @@
             <!-- Añadir diferentes estilos de botones-->
 
             <div class="radio" data-bs-toggle="tooltip" >
-                <div class="radio1"  class="form-check">
+                <div class="radio1" data-bs-toggle="tooltip"  class="form-check">
                     <label class="form-check-label" for="">Hombre</label>
                     <input class="form-check-input" type="radio" name="genero" required>
                 </div>
                    
-                <div class="radio2" class="form-check" data-bs-toggle="tooltip">
-                    <label class="form-check-label" for="">Mujer</label>
+                <div class="radio2" class="form-check" 
+                    <label  class="form-check-label" for="">Mujer</label>
                     <input class="form-check-input" type="radio" name="genero" required>
                 </div>
 
-                <div class="radio2" class="form-check" data-bs-toggle="tooltip" >
+                <div class="radio2" class="form-check" >
                     <label class="form-check-label" for="">Otro</label>
                     <input class="form-check-input" type="radio" name="genero" required>
                 </div>
@@ -124,22 +124,22 @@
             
 
             
-            <div class="form-footer" data-bs-toggle="tooltip" >
-                <div class="textarea" data-bs-toggle="tooltip" >
+            <div class="form-footer"  >
+                <div class="textarea" data-bs-toggle="tooltip" title="Escriba su mensaje aquí..." >
                     <textarea class="form-control" name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
                 </div>
                 
 
                 <div class="botones" data-bs-toggle="tooltip" >
                     <div class="check">
-                        <input class="form-check-input" type="checkbox" checked required>
+                        <input class="form-check-input" data-bs-toggle="tooltip" title="Acepte los términos" type="checkbox" checked required>
                         <label class="form-check-label" for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
                     </div>
                     
-    
+
                     <div class="btn" data-bs-toggle="tooltip valid-feedback " >
-                        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar">
-                        <input class="btn btn-primary" id="limpiar" type="reset" value="Limpiar">
+                        <input class="btn btn-primary"  data-bs-toggle="tooltip" title=" Pulsa para enviar..." id="enviar" type="submit" value="Enviar">
+                        <input class="btn btn-primary"data-bs-toggle="tooltip" title="Pulsa para limpiar..." id="limpiar" type="reset" value="Limpiar">
                     </div>
                     
                 </div>
