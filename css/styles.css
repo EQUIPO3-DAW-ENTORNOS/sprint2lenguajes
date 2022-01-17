@@ -1,16 +1,9 @@
 @import url("base.css");
-@import url("layout.css");
-@import url("img.css");
-@import url("nav.css");
-@import url("tabla.css");
+@import url("cocina.css");
+@import url("columnas.css");
 @import url("form.css");
-
-
-
-
-
-
-@import url("aboutus.css"); 
-@import url("cotactus.css"); 
-@import url("paginalibre.css");
-
+@import url("img.css");
+@import url("layout.css");
+@import url("nav.css");
+@import url("reflection.css");
+@import url("tabla.css")
