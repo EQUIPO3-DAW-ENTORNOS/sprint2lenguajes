@@ -51,9 +51,9 @@
         </div>
       </nav>
     
-    <!-- Introducción al formulario -->
+     <!-- Introducción al formulario -->
 
-    <div class="form fondo1" data-bs-toggle="tooltip" >
+     <div class="form fondo1" data-bs-toggle="tooltip" >
         <div class="intro-form">
             <h2><u><b>Contáctanos</b></u></h2>
             <p>Si tiene alguna duda o problema que crea que le podamos solucionar, no dude en contactar con nosotros mediante el formulario a continuación, estaremos encantados de ayudarle.</p>
@@ -61,32 +61,33 @@
         <!-- Añadir el formulario -->
 
 
-        <form action="/action_page.php" class="was-validated">
+        <form action="" class="form-body">
+
             <!-- Añadir campos de texto -->
 
-            <div class="form-inputs"   >
-                <div class="form-up" >
+            <div class="form-inputs" data-bs-toggle="tooltip">
+                <div class="form-up">
                     <div class="inputs">
-                        <label for=""><i class="far fa-user" class="form-label "></i></label>
-                        <input type="text"  class="form-control" required maxlength="25" minlength="1" placeholder="Antonio Pérez...">
+                        <label for=""><i class="far fa-user"></i></label>
+                        <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez...">
                     </div>
                     <div class="inputs">
-                        <label for=""><i class="fas fa-phone" class="form-label" ></i></label>
-                        <input type="tel" class="form-control" required placeholder="123456789...">
+                        <label for=""><i class="fas fa-phone"></i></label>
+                        <input type="tel" required placeholder="123456789...">
                     </div>
                 </div>
 
-                <div class="form-down valid-feedback ">
+                <div class="form-down">
                     <div class="inputs">
-                        <label for=""><i class="far fa-envelope" class="form-label"></i></label>
-                        <input type="email" class="form-control" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" >
+                        <label for=""><i class="far fa-envelope"></i></label>
+                        <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" >
                     </div>
 
 
                     <!-- Añadir selector -->
 
-                    <div class="select-body" data-bs-toggle="tooltip valid-feedback">
-                        <select class="form-select" data-bs-toggle="tooltip" title="Seleccione una opción..." name="producto" id="select">
+                    <div class="select-body" data-bs-toggle="tooltip">
+                        <select name="producto" id="select">
                             <option value="0" selected hidden></option>
                             <option value="1">Soporte técnico</option>
                             <option value="2">Alérgenos</option>
@@ -103,19 +104,19 @@
             <!-- Añadir diferentes estilos de botones-->
 
             <div class="radio" data-bs-toggle="tooltip" >
-                <div class="radio1" data-bs-toggle="tooltip"  class="form-check">
-                    <label class="form-check-label" for="">Hombre</label>
-                    <input class="form-check-input" type="radio" name="genero" required>
+                <div class="radio1">
+                    <label for="">Hombre</label>
+                    <input type="radio" name="genero" required>
                 </div>
                    
-                <div class="radio2" class="form-check" 
-                    <label  class="form-check-label" for="">Mujer</label>
-                    <input class="form-check-input" type="radio" name="genero" required>
+                <div class="radio2" data-bs-toggle="tooltip">
+                    <label for="">Mujer</label>
+                    <input type="radio" name="genero" required>
                 </div>
 
-                <div class="radio2" class="form-check" >
-                    <label class="form-check-label" for="">Otro</label>
-                    <input class="form-check-input" type="radio" name="genero" required>
+                <div class="radio2" data-bs-toggle="tooltip" >
+                    <label for="">Otro</label>
+                    <input type="radio" name="genero" required>
                 </div>
                 
                     
@@ -124,22 +125,22 @@
             
 
             
-            <div class="form-footer"  >
-                <div class="textarea" data-bs-toggle="tooltip" title="Escriba su mensaje aquí..." >
-                    <textarea class="form-control" name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+            <div class="form-footer" data-bs-toggle="tooltip" >
+                <div class="textarea" data-bs-toggle="tooltip" >
+                    <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
                 </div>
                 
 
                 <div class="botones" data-bs-toggle="tooltip" >
                     <div class="check">
-                        <input class="form-check-input" data-bs-toggle="tooltip" title="Acepte los términos" type="checkbox" checked required>
-                        <label class="form-check-label" for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                        <input type="checkbox" checked required>
+                        <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
                     </div>
                     
-
-                    <div class="btn" data-bs-toggle="tooltip valid-feedback " >
-                        <input class="btn btn-primary"  data-bs-toggle="tooltip" title=" Pulsa para enviar..." id="enviar" type="submit" value="Enviar">
-                        <input class="btn btn-primary"data-bs-toggle="tooltip" title="Pulsa para limpiar..." id="limpiar" type="reset" value="Limpiar">
+    
+                    <div class="btn" data-bs-toggle="tooltip" >
+                        <input id="enviar" type="submit" value="Enviar">
+                        <input id="limpiar" type="reset" value="Limpiar">
                     </div>
                     
                 </div>
