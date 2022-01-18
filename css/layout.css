@@ -251,3 +251,31 @@
   -ms-transform: translate(-50%, -50%);
 } 
 /*Aboutus_Layout*/
+
+/*LAYOUT.CSS*/
+
+/*LAYOUT.CSS*/
+
+/*GRID DE ELEMENTOS SUPERPUESTOS*/
+
+.grid-container {
+
+  display: grid;
+  
+  grid-template-areas: 'area1 area1';
+  
+  grid-gap: 10px;
+  
+  }
+  
+  .item1 {
+  
+  grid-area: area1;
+  
+  }
+  
+  .item2 {
+  
+  grid-area: area1;
+  
+  }
