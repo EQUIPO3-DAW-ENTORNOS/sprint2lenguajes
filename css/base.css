@@ -1,7 +1,7 @@
 /*General*/
 .nav-link
 .body{
-    font-family: Garamond, serif;
+    font-family: Garamond, serif, Arial;
     height: 100%;
 }
 ::placeholder{
