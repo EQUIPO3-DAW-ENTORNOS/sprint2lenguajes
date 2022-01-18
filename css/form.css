@@ -2,11 +2,14 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: white;
+    padding: 39px;
 }
 #enviar:hover{
     letter-spacing: 1px;
     background-color: rgb(7, 148, 7);
     color: white;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #limpiar{
     cursor: pointer;
@@ -17,6 +20,8 @@
     letter-spacing: 1px;
     background-color: rgb(167, 9, 9);
     color: white;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 #select{
     background-color: #444444;
@@ -75,10 +80,12 @@
 }
 .form-footer .botones .btn input{
     color: white;
+    padding: 15px 30px;
 }
 .form-body{
     background-color: #444444;
     width: 40%;
+    padding: 15px;
 }
 .intro-form h2{
     color: black;
