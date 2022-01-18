@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="grupo-3">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20191010/ourlarge/pngtree-rose-logo-vector-png-image_1811819.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+  <title>Rosa's Burguer</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <div class="logo">
+            <img class="img"
+              src="https://png.pngtree.com/png-vector/20191010/ourlarge/pngtree-rose-logo-vector-png-image_1811819.jpg"
+              alt="">
+            <h1 class="titulo" id="titulo-main">Rosa<span id="color-logo">'</span>s <span id="color-logo">Burger</span></h1>
+      
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="paginainicio_grupo3.html">Página Principal</a></li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginalibre_grupo3.html">Reserva</a></li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios_grupo3.html">Servicios</a></li>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus_grupo3.html">About Us</a></li>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="contactus_grupo3.html">Contáctanos</a></li>
+              </li>    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+     <!-- Introducción al formulario -->
+
+     <div class="form fondo1" data-bs-toggle="tooltip" >
+      <div class="intro-form">
+          <h2><u><b>Contáctanos</b></u></h2>
+          <p>Si tiene alguna duda o problema que crea que le podamos solucionar, no dude en contactar con nosotros mediante el formulario a continuación, estaremos encantados de ayudarle.</p>
+      </div>
+      <!-- Añadir el formulario -->
+
+
+      <form action="/action_page.php" class="form-body was-validated">
+
+          <!-- Añadir campos de texto -->
+
+          <div class="form-inputs" data-bs-toggle="tooltip">
+              <div class="form-up">
+                  <div class="inputs mb-3 mt-3">
+                      <label for=""><i class="far fa-user"></i>Nombre</label>
+                      <input type="text" class="form-control" id="uname" required maxlength="25" minlength="1" placeholder="Antonio Pérez..." required="">
+                      <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
+                  </div>
+                  <div class="inputs">
+                      <label for=""><i class="fas fa-phone"></i>Telefono</label>
+                      <input type="tel" class="form-control" required placeholder="123456789..." required>
+                      <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
+                  </div>
+              </div>
+
+              <div class="form-down">
+                  <div class="inputs">
+                      <label for=""><i class="far fa-envelope"></i>Correo</label>
+                      <input type="email" class="form-control" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" required>
+                      <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
+                  </div>
+
+
+                  <!-- Añadir selector -->
+
+                  <div class="select-body" data-bs-toggle="tooltip">
+                    <p>Selecciona una opción:</p>
+                    <div class="inputs">
+                      <select name="producto" id="select">
+                          <option value="0" selected hidden></option>
+                          <option value="1">Soporte técnico</option>
+                          <option value="2">Alérgenos</option>
+                          <option value="3">Problemas a domicilio</option>
+                          <option value="4">Sugerencias</option>
+                      </select>
+                    
+                      <i id="flecha" class="fas fa-angle-down"></i>
+                    </div>
+                  </div>
+                  
+              </div>
+          </div>
+          
+
+          <!-- Añadir diferentes estilos de botones-->
+
+          <div class="radio form-check" data-bs-toggle="tooltip" >
+              <div class="radio1">
+                  <label class="form-check-label" for="">Hombre</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
+              </div>
+                 
+              <div class="radio2 form-check" data-bs-toggle="tooltip">
+                  <label class="form-check-label" for="">Mujer</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
+              </div>
+
+              <div class="radio2 form-check" data-bs-toggle="tooltip" >
+                  <label class="form-check-label" for="">Otro</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
+              </div>
+              
+                  
+          </div>
+
+          
+
+          
+          <div class="form-footer" data-bs-toggle="tooltip" >
+              <div class="textarea" data-bs-toggle="tooltip" >
+                  <textarea class="form-control" name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                  <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
+              </div>
+              
+
+              <div class="botones" data-bs-toggle="tooltip" >
+                  <div class="check">
+                      <input type="checkbox" checked required>
+                      <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                      <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Es necesario aceptar los términos</div>
+                  </div>
+                  
+  
+                  <div class="btn" data-bs-toggle="tooltip" >
+                      <input id="enviar" type="submit" value="Enviar">
+                      <input id="limpiar" type="reset" value="Limpiar">
+                  </div>
+                  
+              </div>
+              
+          </div>
+      </form>
+  </div>
+
+    <!-- Añadir ubicacion de Google Maps -->
+
+
+    <div class="contenedor-maps fondo2" data-bs-toggle="tooltip valid-feedback " >
+        <div class="titulo-maps">
+            <h2>Cada día más cerca de ti</h2>
+        </div>
+        <div>
+            <div class="maps" data-bs-toggle="tooltip valid-feedback " >
+                <iframe class="border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.5203964896418!2d-4.404172570753936!3d36.720601773724674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7e73bd80d9f%3A0xe932bb5e36e4cee!2sN-340%2C%2019%2C%2029016%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1634203308814!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+    </div>
+
+
+    
+   
+  
+  </body>
+  
+  </html>
+
