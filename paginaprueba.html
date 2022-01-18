@@ -93,6 +93,8 @@
                   <!-- Añadir selector -->
 
                   <div class="select-body" data-bs-toggle="tooltip">
+                    <p>Selecciona una opción:</p>
+                    <div class="inputs">
                       <select name="producto" id="select">
                           <option value="0" selected hidden></option>
                           <option value="1">Soporte técnico</option>
@@ -100,7 +102,9 @@
                           <option value="3">Problemas a domicilio</option>
                           <option value="4">Sugerencias</option>
                       </select>
+                    
                       <i id="flecha" class="fas fa-angle-down"></i>
+                    </div>
                   </div>
                   
               </div>
@@ -109,20 +113,20 @@
 
           <!-- Añadir diferentes estilos de botones-->
 
-          <div class="radio" data-bs-toggle="tooltip" >
+          <div class="radio form-check" data-bs-toggle="tooltip" >
               <div class="radio1">
-                  <label for="">Hombre</label>
-                  <input type="radio" name="genero" required>
+                  <label class="form-check-label" for="">Hombre</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
               </div>
                  
-              <div class="radio2" data-bs-toggle="tooltip">
-                  <label for="">Mujer</label>
-                  <input type="radio" name="genero" required>
+              <div class="radio2 form-check" data-bs-toggle="tooltip">
+                  <label class="form-check-label" for="">Mujer</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
               </div>
 
-              <div class="radio2" data-bs-toggle="tooltip" >
-                  <label for="">Otro</label>
-                  <input type="radio" name="genero" required>
+              <div class="radio2 form-check" data-bs-toggle="tooltip" >
+                  <label class="form-check-label" for="">Otro</label>
+                  <input type="radio" class="form-check-input" name="genero" required>
               </div>
               
                   
@@ -133,7 +137,9 @@
           
           <div class="form-footer" data-bs-toggle="tooltip" >
               <div class="textarea" data-bs-toggle="tooltip" >
-                  <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                  <textarea class="form-control" name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                  <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
               </div>
               
 
@@ -141,6 +147,8 @@
                   <div class="check">
                       <input type="checkbox" checked required>
                       <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                      <div class="valid-feedback">Valido.</div>
+                      <div class="invalid-feedback">Es necesario aceptar los términos</div>
                   </div>
                   
   
