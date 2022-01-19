@@ -69,26 +69,26 @@
         <!-- Añadir el formulario -->
  
         <form action="/action_page.php" class="was-validated form-body "  >
-            <div>
+               <div>
                 <div class="form-inputs">
                     <div class="form-up">
                         <div class="inputs">
-                            <label class="form-label for=""><i class="far fa-user"></i>nOMBRE</label>
-                            <input class="form-control" type="text" data-bs-toggle="tooltip" title="cOMPLETA ESTE CAMPO!" required placeholder="Antonio Pérez...">  
+                            <label class="form-label for=""><i class="far fa-user"></i>Nombre:</label>
+                            <input class="form-control" type="text" data-bs-toggle="tooltip" title="Rellene este campo!" required placeholder="Antonio Pérez...">  
                             <div class="valid-feedback">Válido.</div>
                             <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
                         <div class="inputs">
-                            <label class="form-label"for=""><i class="fas fa-phone"></i></label>
-                            <input  class="form-control" type="tel"  required placeholder="123456789...">
+                            <label class="form-label"for=""><i class="fas fa-phone"></i>Teléfono:</label>
+                            <input  class="form-control" type="tel"  required placeholder="123456789..." data-bs-toggle="tooltip" title="Rellene este campo!">
                             <div class="valid-feedback">Válido.</div>
                             <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
                     </div>
                     
                     <div class="inputs">
-                        <label class="form-label" for=""><i class="far fa-envelope"></i></label>
-                        <input class="form-control" type="email" required placeholder="aaa@gmail.com">
+                        <label class="form-label" for=""><i class="far fa-envelope"></i>Email:</label>
+                        <input class="form-control" type="email" required placeholder="aaa@gmail.com"  data-bs-toggle="tooltip" title="Rellene este campo!" >
                         <div class="valid-feedback">Válido.</div>
                         <div class="invalid-feedback">Rellena este campo.</div>
                     </div>
@@ -99,16 +99,16 @@
                 <div class="form-down">
                     <div class="inputs">
                         <label class="form-label" for="">Número de personas (Máximo 25): </label>
-                        <input  class="form-control" type="number" required max="25" min="1" class="input-clientes">
+                        <input  class="form-control" type="number" required max="25" min="1" class="input-clientes"  data-bs-toggle="tooltip" title="Rellene este campo!" >
 
                         <div class="valid-feedback">Válido.</div>
                         <div class="invalid-feedback">Rellena este campo.</div>
 
                     </div>
                     <div class="inputs">
-                      <label for=""><i class="far fa-clock"></i></label>
-                      <input type="date" class="form-control" name="" id="" required class="input-clock" required>
-                      <input type="time" class="form-control" name="" id="" required class="input-clock" required>
+                      <label for=""><i class="far fa-clock"></i>Fecha:</label>
+                      <input type="date" class="form-control" name="" id="" required class="input-clock" required  data-bs-toggle="tooltip" title="Rellene este campo!" >
+                      <input type="time" class="form-control" name="" id="" required class="input-clock" required  data-bs-toggle="tooltip" title="Rellene este campo!">
                       <div class="valid-feedback">Valido.</div>
                     <div class="invalid-feedback">Indica el número de personas.</div>
                   </div>
@@ -122,7 +122,7 @@
 
                 <div class="form-footer">
                     <div class="textarea">
-                        <textarea   class="form-control  name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                        <textarea   class= "form-control  name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required  data-bs-toggle="tooltip" title="Rellene este campo!"></textarea>
                          <div class="valid-feedback">Válido.</div>
                       <div class="invalid-feedback">Rellena este campo.</div>
                     </div>
@@ -138,8 +138,8 @@
                         
         
                         <div class="btn">
-                            <input id="enviar" type="submit" value="Enviar" data-bs-toggle="tooltip" title=" Pulsa para enviar...">
-                            <input id="limpiar" type="reset" value="Limpiar" data-bs-toggle="tooltip" title=" Pulsa para limpiar..."">
+                            <input id="enviar" type="submit" value="Enviar" data-bs-toggle="tooltip" title=" Pulsa para enviar.">
+                            <input id="limpiar" type="reset" value="Limpiar" data-bs-toggle="tooltip" title=" Pulsa para limpiar."">
                         </div>
                         
                     </div>
