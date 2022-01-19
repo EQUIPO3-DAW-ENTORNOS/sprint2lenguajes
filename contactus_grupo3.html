@@ -54,115 +54,118 @@
      <!-- Introducción al formulario -->
 
      <div class="form fondo1" data-bs-toggle="tooltip" >
-        <div class="intro-form">
-            <h2><u><b>Contáctanos</b></u></h2>
-            <p>Si tiene alguna duda o problema que crea que le podamos solucionar, no dude en contactar con nosotros mediante el formulario a continuación, estaremos encantados de ayudarle.</p>
-        </div>
-        <!-- Añadir el formulario -->
+      <div class="intro-form">
+          <h2><u><b>Contáctanos</b></u></h2>
+          <p>Si tiene alguna duda o problema que crea que le podamos solucionar, no dude en contactar con nosotros mediante el formulario a continuación, estaremos encantados de ayudarle.</p>
+      </div>
+      <!-- Añadir el formulario -->
 
 
-        <form action="/action_page.php" class="was-validated form-body "  >
+      <form action="" class="form-body">
 
-            <!-- Añadir campos de texto -->
+          <!-- Añadir campos de texto -->
 
-            <div>
-                <div class="form-inputs">
-                    <div class="form-up">
-                        <div class="inputs">
-                            <label for=""><i class="form-label class="far fa-user"></i></label>
-                            <input  class="form-control" type="text" required placeholder="Antonio Pérez...">  
-                            <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                        </div>
-                        <div class="inputs">
-                            <label class="form-label" for=""><i class="fas fa-phone"></i></label>
-                            <input class="form-control" type="tel" required placeholder="123456789...">
-                            <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="inputs">
-                        <label for=""><i class="form-label" class="far fa-envelope"></i></label>
-                        <input  class="form-control"type="email" required placeholder="aaa@gmail.com">
-                        <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                    </div>
-                    
-                </div>
+          <div class="form-inputs" data-bs-toggle="tooltip">
+              <div class="form-up">
+                  <div class="inputs">
+                      <label for=""><i class="far fa-user"></i></label>
+                      <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez...">
+                  </div>
+                  <div class="inputs">
+                      <label for=""><i class="fas fa-phone"></i></label>
+                      <input type="tel" required placeholder="123456789...">
+                  </div>
+              </div>
+
+              <div class="form-down">
+                  <div class="inputs">
+                      <label for=""><i class="far fa-envelope"></i></label>
+                      <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" >
+                  </div>
 
 
-                <div class="form-down">
-                    <div class="inputs">
-                        <label class="form-label"for="">Número de personas (Máximo 25): </label>
-                        <input class="form-control" type="number" required max="25" min="1" class="input-clientes">
-                        <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                    </div>
-                    <div class="inputs">
-                        <label class="form-label" for=""><i class="far fa-clock"></i></label>
-                        <input class="form-control" type="date" name="" id="" required class="input-clock">
-                        <input type="time" name="" id="" required class="input-clock">
-                        <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                    </div>
-                </div>
-            
+                  <!-- Añadir selector -->
+
+                  <div class="select-body" data-bs-toggle="tooltip">
+                      <select name="producto" id="select">
+                          <option value="0" selected hidden></option>
+                          <option value="1">Soporte técnico</option>
+                          <option value="2">Alérgenos</option>
+                          <option value="3">Problemas a domicilio</option>
+                          <option value="4">Sugerencias</option>
+                      </select>
+                      <i id="flecha" class="fas fa-angle-down"></i>
+                  </div>
+                  
+              </div>
+          </div>
+          
+
+          <!-- Añadir diferentes estilos de botones-->
+
+          <div class="radio" data-bs-toggle="tooltip" >
+              <div class="radio1">
+                  <label for="">Hombre</label>
+                  <input type="radio" name="genero" required>
+              </div>
+                 
+              <div class="radio2" data-bs-toggle="tooltip">
+                  <label for="">Mujer</label>
+                  <input type="radio" name="genero" required>
+              </div>
+
+              <div class="radio2" data-bs-toggle="tooltip" >
+                  <label for="">Otro</label>
+                  <input type="radio" name="genero" required>
+              </div>
+              
+                  
+          </div>
+
+          
+
+          
+          <div class="form-footer" data-bs-toggle="tooltip" >
+              <div class="textarea" data-bs-toggle="tooltip" >
+                  <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+              </div>
+              
+
+              <div class="botones" data-bs-toggle="tooltip" >
+                  <div class="check">
+                      <input type="checkbox" checked required>
+                      <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                  </div>
+                  
+  
+                  <div class="btn" data-bs-toggle="tooltip" >
+                      <input id="enviar" type="submit" value="Enviar">
+                      <input id="limpiar" type="reset" value="Limpiar">
+                  </div>
+                  
+              </div>
+              
+          </div>
+      </form>
+  </div>
+  <!-- Añadir ubicacion de Google Maps -->
 
 
-                <div body>
-                    <h2><u><b>Anotaciones a tener en cuenta</b></u></h2>
-                </div>
-
-                <div class="form-footer">
-                    <div class="textarea">
-                        <textarea class="form-control name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
-                        <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                    </div>
-                    
-    
-                    <div class="botones">
-                        <div class="check">
-                            <input data-bs-toggle="tooltip" title="Acepte los términos" type="checkbox" checked required>
-                            <label class="form-check-label" for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
-                            <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
-                        </div>
-                        
-        
-                        <div class="btn">
-                            <input id="enviar" type="submit" value="Enviar" data-bs-toggle="tooltip" title=" Pulsa para enviar...">
-                            <input id="limpiar" type="reset" value="Limpiar" data-bs-toggle="tooltip" title="Pulsa para limpiar...">
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
+  <div class="contenedor-maps fondo2" data-bs-toggle="tooltip" >
+      <div class="titulo-maps">
+          <h2>Cada día más cerca de ti</h2>
+      </div>
+      <div>
+          <div class="maps" data-bs-toggle="tooltip" >
+              <iframe class="border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.5203964896418!2d-4.404172570753936!3d36.720601773724674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7e73bd80d9f%3A0xe932bb5e36e4cee!2sN-340%2C%2019%2C%2029016%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1634203308814!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      </div>
+      
+  </div>
+  
+  <!-- Añadir menú y footer -->
 
 
-    </div>
-  </form>
-
-    <!-- Añadir ubicacion de Google Maps -->
-
-
-    <div class="contenedor-maps fondo2" data-bs-toggle="tooltip valid-feedback " >
-        <div class="titulo-maps">
-            <h2>Cada día más cerca de ti</h2>
-        </div>
-        <div>
-            <div class="maps" data-bs-toggle="tooltip valid-feedback " >
-                <iframe class="border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.5203964896418!2d-4.404172570753936!3d36.720601773724674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7e73bd80d9f%3A0xe932bb5e36e4cee!2sN-340%2C%2019%2C%2029016%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1634203308814!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-        
-    </div>
-    
-    <!-- Añadir menú y footer -->
-
-
-    <p class="AlineacionDerechos">todos los derechos reservados&REG;</p>
+  <p class="AlineacionDerechos">todos los derechos reservados&REG;</p>
 </body>
 </html>
