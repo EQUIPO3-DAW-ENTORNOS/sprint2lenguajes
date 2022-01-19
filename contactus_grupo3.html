@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    
+  
+    
 </head>
 <body>
     <!-- Título y logo de la página-->
@@ -68,19 +71,19 @@
           <div class="form-inputs" data-bs-toggle="tooltip">
               <div class="form-up">
                   <div class="inputs">
-                      <label for=""><i class="far fa-user"></i></label>
-                      <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez...">
+                      <label for=""><i class="far fa-user" ></i></label>
+                      <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez..." data-bs-toggle="tooltip" title="Rellene este campo!">
                   </div>
                   <div class="inputs">
                       <label for=""><i class="fas fa-phone"></i></label>
-                      <input type="tel" required placeholder="123456789...">
+                      <input type="tel" required placeholder="123456789..." data-bs-toggle="tooltip" title="Rellene este campo!">
                   </div>
               </div>
 
               <div class="form-down">
                   <div class="inputs">
                       <label for=""><i class="far fa-envelope"></i></label>
-                      <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" >
+                      <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" data-bs-toggle="tooltip" title="Rellene este campo!" >
                   </div>
 
 
@@ -94,7 +97,7 @@
                           <option value="3">Problemas a domicilio</option>
                           <option value="4">Sugerencias</option>
                       </select>
-                      <i id="flecha" class="fas fa-angle-down"></i>
+                      <i id="flecha" class="fas fa-angle-down" data-bs-toggle="tooltip" title="Rellene este campo!"></i>
                   </div>
                   
               </div>
@@ -106,17 +109,17 @@
           <div class="radio" data-bs-toggle="tooltip" >
               <div class="radio1">
                   <label for="">Hombre</label>
-                  <input type="radio" name="genero" required>
+                  <input type="radio" name="genero" required data-bs-toggle="tooltip" title="Rellene este campo!">
               </div>
                  
               <div class="radio2" data-bs-toggle="tooltip">
                   <label for="">Mujer</label>
-                  <input type="radio" name="genero" required>
+                  <input data-bs-toggle="tooltip" title="Rellene este campo!" type="radio" name="genero" required>
               </div>
 
               <div class="radio2" data-bs-toggle="tooltip" >
                   <label for="">Otro</label>
-                  <input type="radio" name="genero" required>
+                  <input data-bs-toggle="tooltip" title="Rellene este campo!" type="radio" name="genero" required>
               </div>
               
                   
@@ -127,20 +130,20 @@
           
           <div class="form-footer" data-bs-toggle="tooltip" >
               <div class="textarea" data-bs-toggle="tooltip" >
-                  <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required></textarea>
+                  <textarea name="textarea" id="comment" cols="50" rows="7" placeholder="Escriba su mensaje aquí..." required data-bs-toggle="tooltip" title="Rellene este campo!"></textarea>
               </div>
               
 
               <div class="botones" data-bs-toggle="tooltip" >
                   <div class="check">
-                      <input type="checkbox" checked required>
+                      <input type="checkbox" checked required data-bs-toggle="tooltip" title="Acepte los términos" >
                       <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
                   </div>
                   
   
                   <div class="btn" data-bs-toggle="tooltip" >
-                      <input id="enviar" type="submit" value="Enviar">
-                      <input id="limpiar" type="reset" value="Limpiar">
+                      <input  id="enviar" type="submit" value="Enviar"data-bs-toggle="tooltip" title=" Pulsa para enviar.">
+                      <input id="limpiar" type="reset" value="Limpiar" data-bs-toggle="tooltip" title=" Pulsa para limpiar.">
                   </div>
                   
               </div>
@@ -162,9 +165,15 @@
       </div>
       
   </div>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
   
   <!-- Añadir menú y footer -->
-
+  
 
   <p class="AlineacionDerechos">todos los derechos reservados&REG;</p>
 </body>
