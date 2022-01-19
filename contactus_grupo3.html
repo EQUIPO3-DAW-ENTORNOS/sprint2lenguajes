@@ -64,40 +64,49 @@
       <!-- Añadir el formulario -->
 
 
-      <form action="" class="form-body">
+      <form action="/action_page.php" class="was-validated form-body "  >
 
           <!-- Añadir campos de texto -->
 
           <div class="form-inputs" data-bs-toggle="tooltip">
               <div class="form-up">
                   <div class="inputs">
-                      <label for=""><i class="far fa-user" ></i></label>
-                      <input type="text" required maxlength="25" minlength="1" placeholder="Antonio Pérez..." data-bs-toggle="tooltip" title="Rellene este campo!">
+                    <label class="form-label for=""><i class="far fa-user"></i>Nombre:</label>
+                    <input class="form-control" type="text" data-bs-toggle="tooltip" title="Rellene este campo!" required placeholder="Antonio Pérez...">  
+                    <div class="valid-feedback">Válido.</div>
+                    <div class="invalid-feedback">Rellena este campo.</div>
                   </div>
                   <div class="inputs">
-                      <label for=""><i class="fas fa-phone"></i></label>
-                      <input type="tel" required placeholder="123456789..." data-bs-toggle="tooltip" title="Rellene este campo!">
+                    <label class="form-label"for=""><i class="fas fa-phone"></i>Teléfono:</label>
+                    <input  class="form-control" type="tel"  required placeholder="123456789..." data-bs-toggle="tooltip" title="Rellene este campo!">
+                    <div class="valid-feedback">Válido.</div>
+                    <div class="invalid-feedback">Rellena este campo.</div>
                   </div>
               </div>
 
               <div class="form-down">
                   <div class="inputs">
-                      <label for=""><i class="far fa-envelope"></i></label>
-                      <input type="email" required maxlength="320" minlength="3" placeholder="aaa@gmail.com" id="input-email" data-bs-toggle="tooltip" title="Rellene este campo!" >
+                      <label class="form-label" for=""><i class="far fa-envelope"></i>Email:</label>
+                        <input class="form-control" type="email" required placeholder="aaa@gmail.com"  data-bs-toggle="tooltip" title="Rellene este campo!" >
+                        <div class="valid-feedback">Válido.</div>
+                        <div class="invalid-feedback">Rellena este campo.</div>
                   </div>
 
 
                   <!-- Añadir selector -->
 
-                  <div class="select-body" data-bs-toggle="tooltip">
-                      <select name="producto" id="select">
+                  <div class= "select-body" data-bs-toggle="tooltip">
+                      <select  name="producto" id="select">
                           <option value="0" selected hidden></option>
                           <option value="1">Soporte técnico</option>
                           <option value="2">Alérgenos</option>
                           <option value="3">Problemas a domicilio</option>
                           <option value="4">Sugerencias</option>
+                         
                       </select>
-                      <i id="flecha" class="fas fa-angle-down" data-bs-toggle="tooltip" title="Rellene este campo!"></i>
+                      <i id= "form-label" "flecha" class="fas fa-angle-down" data-bs-toggle="tooltip" title="Rellene este campo!"></i>
+                      
+                     
                   </div>
                   
               </div>
@@ -106,10 +115,10 @@
 
           <!-- Añadir diferentes estilos de botones-->
 
-          <div class="radio" data-bs-toggle="tooltip" >
+          <div class= "radio" data-bs-toggle="tooltip" >
               <div class="radio1">
-                  <label for="">Hombre</label>
-                  <input type="radio" name="genero" required data-bs-toggle="tooltip" title="Rellene este campo!">
+                  <label   for="" >Hombre</label>
+                  <input type=  "radio" name="genero" required data-bs-toggle="tooltip" title="Rellene este campo!">
               </div>
                  
               <div class="radio2" data-bs-toggle="tooltip">
@@ -137,7 +146,9 @@
               <div class="botones" data-bs-toggle="tooltip" >
                   <div class="check">
                       <input type="checkbox" checked required data-bs-toggle="tooltip" title="Acepte los términos" >
-                      <label for="">He leído y acepto los <a href="">Términos y Servicios</a></label>
+                      <label for= "form-check-label" "" >He leído y acepto los <a href="">Términos y Servicios</a></label>
+                      <div class="valid-feedback">Válido.</div>
+                      <div class="invalid-feedback">Rellena este campo.</div>
                   </div>
                   
   
