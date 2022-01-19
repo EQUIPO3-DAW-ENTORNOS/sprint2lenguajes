@@ -16,6 +16,7 @@
     
 </head>
 <body>
+  
 
     <!-- Título y logo de la página-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -73,13 +74,13 @@
                     <div class="form-up">
                         <div class="inputs">
                             <label class="form-label for=""><i class="far fa-user"></i>nOMBRE</label>
-                            <input class="form-control" type="text" required placeholder="Antonio Pérez...">  
+                            <input class="form-control" type="text" data-bs-toggle="tooltip" title="cOMPLETA ESTE CAMPO!" required placeholder="Antonio Pérez...">  
                             <div class="valid-feedback">Válido.</div>
                             <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
                         <div class="inputs">
                             <label class="form-label"for=""><i class="fas fa-phone"></i></label>
-                            <input  class="form-control" type="tel" required placeholder="123456789...">
+                            <input  class="form-control" type="tel"  required placeholder="123456789...">
                             <div class="valid-feedback">Válido.</div>
                             <div class="invalid-feedback">Rellena este campo.</div>
                         </div>
@@ -161,7 +162,13 @@
     </div>
         
         
-    
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      </script>
+
     
     
 
