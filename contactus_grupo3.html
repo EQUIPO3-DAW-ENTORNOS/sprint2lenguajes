@@ -94,21 +94,32 @@
 
                   <!-- Añadir selector -->
 
-                  <div class= "select-body" >
-                      <select  name="producto" id="select"  >
-                          <option value="0" selected hidden></option>
-                          <option value="1">Soporte técnico</option>
-                          <option value="2">Alérgenos</option>
-                          <option value="3">Problemas a domicilio</option>
-                          <option value="4">Sugerencias</option>
+                  <div class= "select-body"  >
+
+                    <label  for="producto" >Informe</label>
+                    
+                    
+
+                      <select data-bs-toggle="tooltip" title="Rellene este campo!"  name="producto" id="select" class="form-select "   required>
+
+                        <option selected disabled value="">Pulsa aquí...</option>
+
+                        <option >Soporte técnico</option>
+                          <option >Alérgenos</option>
+                          <option >Problemas a domicilio</option>
+                          <option >Sugerencias</option>
+                         
+                         
 
                           
                          
                       </select>
-                      <i id= "form-label" "flecha" class="fas fa-angle-down" class="form-select" required data-bs-toggle="tooltip" title="Rellene este campo!"></i>
+                      <div class="valid-feedback">Válido.</div>
+                    <div class="invalid-feedback">Rellena este campo.</div>
+                      
+            
                       
 
-                     
                       
                      
                   </div>
