@@ -61,7 +61,7 @@
     .enlaces li a{
         text-decoration: none;
         color: rgb(189, 29, 29);
-        font-size: 20px;
+        font-size: 1em;
         font-weight: 600;
         transition: all 0.5s;
         padding: 14px 25px;
