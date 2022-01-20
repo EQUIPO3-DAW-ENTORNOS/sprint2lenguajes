@@ -28,7 +28,7 @@
     outline: none;
     border: none;
     color: white;
-    font-size: 17px;
+    font-size: 1em;
     font-weight: 400;
     transition: all 0.4s;
     cursor: pointer;
@@ -40,7 +40,7 @@
     color: white;
 }
 #flecha{
-    font-size: 20px;
+    font-size: 1em;
     color: #777777;
     transition: all 0.4s; 
 }
@@ -56,7 +56,7 @@
     width: 100%;
     background-color: #666666;
     color: white;
-    font-size: 17px;
+    font-size: 1em;
     outline: none;
     border: 2px solid #666666;
     transition: all 0.4s;
@@ -89,11 +89,11 @@
 }
 .intro-form h2{
     color: black;
-    font-size: 30px;
+    font-size: 1em;
 }
 .intro-form p{
     color: black;
-    font-size: 20px;
+    font-size: 1em;
 }
 .form-inputs input{
     width: 85%;
@@ -101,7 +101,7 @@
     border: none;
     background-color: #444444;
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     border-bottom: 2px solid #666666;
     transition: all 0.6s;
 }
