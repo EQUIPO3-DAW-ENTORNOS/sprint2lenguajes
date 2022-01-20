@@ -88,23 +88,27 @@
                   <div class="inputs">
                       <label class="form-label" for=""><i class="far fa-envelope"></i>Email:</label>
                         <input class="form-control" type="email" required placeholder="aaa@gmail.com"  data-bs-toggle="tooltip" title="Rellene este campo!" >
-                        <div class="valid-feedback">Válido.</div>
-                        <div class="invalid-feedback">Rellena este campo.</div>
+                        
                   </div>
 
 
                   <!-- Añadir selector -->
 
-                  <div class= "select-body" data-bs-toggle="tooltip">
-                      <select  name="producto" id="select">
+                  <div class= "select-body" >
+                      <select  name="producto" id="select"  >
                           <option value="0" selected hidden></option>
                           <option value="1">Soporte técnico</option>
                           <option value="2">Alérgenos</option>
                           <option value="3">Problemas a domicilio</option>
                           <option value="4">Sugerencias</option>
+
+                          
                          
                       </select>
-                      <i id= "form-label" "flecha" class="fas fa-angle-down" data-bs-toggle="tooltip" title="Rellene este campo!"></i>
+                      <i id= "form-label" "flecha" class="fas fa-angle-down" class="form-select" required data-bs-toggle="tooltip" title="Rellene este campo!"></i>
+                      
+
+                     
                       
                      
                   </div>
@@ -117,8 +121,8 @@
 
           <div class= "radio" data-bs-toggle="tooltip" >
               <div class="radio1">
-                  <label   for="" >Hombre</label>
-                  <input type=  "radio" name="genero" required data-bs-toggle="tooltip" title="Rellene este campo!">
+                  <label    for="" >Hombre</label>
+                  <input  type=   "radio" name="genero" required data-bs-toggle="tooltip" title="Rellene este campo!">
               </div>
                  
               <div class="radio2" data-bs-toggle="tooltip">
@@ -129,6 +133,9 @@
               <div class="radio2" data-bs-toggle="tooltip" >
                   <label for="">Otro</label>
                   <input data-bs-toggle="tooltip" title="Rellene este campo!" type="radio" name="genero" required>
+
+                  <div class="valid-feedback">Válido.</div>
+                    <div class="invalid-feedback">Rellena este campo.</div>
               </div>
               
                   
