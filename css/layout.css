@@ -25,7 +25,7 @@
     background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 1em;
   }
   /* The grid container */
   .grid-container {
@@ -203,7 +203,7 @@
  /* margin-left: 25px;*/
   border-radius: 50px;
   border: none;
-  font-size: 15px;
+  font-size: 1em;
   font-weight: 700;
 }
 .form-body{
