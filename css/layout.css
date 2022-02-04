@@ -14,7 +14,7 @@
   display: flex;
 }
 #titulo-main{
-  /*margin-left: 20px;*/
+  margin-left: 20px;
   align-items: center;
 }
 .inputs i{
@@ -25,7 +25,7 @@
     background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
-    font-size: 1em;
+    font-size: 35px;
   }
   /* The grid container */
   .grid-container {
@@ -43,9 +43,9 @@
     height: 300px; /* Should be removed. Only for demonstration */
 }
   /* Style the left column */
-  /*.left {
+  .left {
     grid-area: left;
-  }*/
+  }
   /* Style the middle column */
   .middle {
     grid-area: middle;
@@ -62,16 +62,9 @@
     text-align: center;
   }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-    .grid-container {
-      grid-template-areas:
-        "header header header header header header"
-        "left left left left left left"
-        "middle middle middle middle middle middle"
-        "right right right right right right"
-        "footer footer footer footer footer footer";
-    }
-  }
+
+
+  
   .imgs{
     display: flex;
     flex-direction: column;
@@ -200,10 +193,10 @@
   justify-content: space-around;
 }
 .form-footer .botones .btn input{
- /* margin-left: 25px;*/
+  margin-left: 25px;
   border-radius: 50px;
   border: none;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 700;
 }
 .form-body{
@@ -251,31 +244,3 @@
   -ms-transform: translate(-50%, -50%);
 } 
 /*Aboutus_Layout*/
-
-/*LAYOUT.CSS*/
-
-/*LAYOUT.CSS*/
-
-/*GRID DE ELEMENTOS SUPERPUESTOS*/
-
-.grid-container {
-
-  display: grid;
-  
-  grid-template-areas: 'area1 area1';
-  
-  grid-gap: 10px;
-  
-  }
-  
-  .item1 {
-  
-  grid-area: area1;
-  
-  }
-  
-  .item2 {
-  
-  grid-area: area1;
-  
-  }

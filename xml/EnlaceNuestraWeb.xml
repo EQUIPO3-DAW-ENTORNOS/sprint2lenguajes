@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Nuestra Página Web(Rosa´s Burguer)</title>
+  <link>http://127.0.0.1:5500/codigo%20rss/paginas%20de%20trabajo%20de%20html%20y%20css/paginainicio_grupo3.html</link>
+  <description>PaginaPrincipal</description>
+  <item>
+    <title>Nuestra Página Web(Rosa´s Burguer)</title>
+    <link>http://127.0.0.1:5500/codigo%20rss/paginas%20de%20trabajo%20de%20html%20y%20css/aboutus_grupo3.html</link>
+    <description>Pagina de AboutUs</description>
+  </item>
+  <item>
+    <title>Nuestra Página Web(Rosa´s Burguer)</title>
+    <link>http://127.0.0.1:5500/codigo%20rss/paginas%20de%20trabajo%20de%20html%20y%20css/paginalibre_grupo3.html</link>
+    <description>Paginas de Reservas</description>
+  </item>
+  <item>
+    <title>Nuestra Página Web(Rosa´s Burguer)</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>Paginas de Servicios</description>
+  </item>
+   <item>
+    <title>Nuestra Página Web(Rosa´s Burguer)</title>
+    <link>http://127.0.0.1:5500/codigo%20rss/paginas%20de%20trabajo%20de%20html%20y%20css/contactus_grupo3.html</link>
+    <description>Paginas de contactanos</description>
+  </item>
+</channel>
+
+</rss>
